@@ -1,7 +1,7 @@
 # Imperial Networks UISP Migration Progress
 
 **Document Date:** February 4, 2026
-**Status:** Phase 1 Complete - Fresh UISP Installed
+**Status:** Phase 2 Complete - MikroTik Integration Working
 **UISP Version:** 2.4.206
 
 ---
@@ -45,7 +45,47 @@
 - Backup location: `/backup/uisp/`
 - Schedule: Daily at 2:00 AM via crontab
 - Retention: 30 days
-- First backup created: `db_20260204_193601.sql.gz` (112 KB)
+
+### 5. UISP Initial Setup ✓
+- Admin account created
+- Organization configured
+- Timezone set to Asia/Manila
+- Basic settings configured
+
+### 6. RouterOS Plugin Installation ✓
+- Installed **ros-plugin v2.3.5** from [MadaMzandu/uisp-ros-plugin](https://github.com/MadaMzandu/uisp-ros-plugin)
+- Plugin provides real-time PPPoE provisioning for MikroTik RouterOS
+- Replaces the deleted `routeros-suspension` plugin from McBroad
+
+**Plugin Location:** `/home/unms/data/ucrm/ucrm/data/plugins/ros-plugin/`
+
+### 7. Custom Attributes Configuration ✓
+Created service-level custom attributes in UISP:
+
+| Attribute Name | Key | Type | Purpose |
+|----------------|-----|------|---------|
+| Device | `device` | Choice | Select MikroTik router |
+| PPPoE Username | `pppoeusername` | Text | PPPoE account username |
+| PPPoE Password | `pppoepassword` | Text | PPPoE account password |
+
+### 8. MikroTik Integration ✓
+- Router added to plugin: `main-ac` (10.86.0.23)
+- API connection working on port 8728
+- Webhook configured and receiving events
+- PPPoE secrets syncing to MikroTik automatically
+
+**Required MikroTik Configuration:**
+```
+/ppp profile add name=SAMPLE rate-limit=35M/35M
+/ppp profile add name=ULTRA rate-limit=100M/100M
+```
+
+**Plugin Attribute Mapping (in data.db):**
+| Setting | Value |
+|---------|-------|
+| device_name_attr | `device` |
+| pppoe_user_attr | `pppoeusername` |
+| pppoe_pass_attr | `pppoepassword` |
 
 ---
 
@@ -61,6 +101,8 @@
 └── data/                             # Persistent data
     ├── postgres/                     # Database files
     ├── ucrm/                         # CRM data
+    │   └── ucrm/data/plugins/        # Installed plugins
+    │       └── ros-plugin/           # RouterOS plugin
     ├── cert/                         # SSL certificates
     ├── logs/                         # Application logs
     ├── firmwares/                    # Device firmware
@@ -75,19 +117,31 @@
 |----------|-----|
 | UISP Web Interface | https://10.255.255.86 |
 | CRM Module | https://10.255.255.86/crm/ |
+| RouterOS Plugin Panel | https://10.255.255.86/crm/_plugins/ros-plugin/public.php?page=panel |
 | Local Access | https://localhost |
+
+---
+
+## How the MikroTik Integration Works
+
+1. **Add Client** in UISP with a service
+2. **Fill Custom Attributes**: Device (router), PPPoE Username, PPPoE Password
+3. **Webhook fires** automatically on save
+4. **Plugin creates PPPoE secret** on the assigned MikroTik router
+5. **Suspend/Unsuspend** actions automatically disable/enable the PPPoE account
+
+**Supported Actions:**
+- Insert (new service) → Creates PPPoE secret
+- Edit (modify service) → Updates PPPoE secret
+- Suspend → Disables PPPoE account
+- Unsuspend → Re-enables PPPoE account
+- Delete → Removes PPPoE secret
 
 ---
 
 ## What's Next
 
 ### Immediate (Before Feb 15 Deadline)
-
-- [ ] **Complete UISP initial setup wizard**
-  - Create admin account
-  - Set organization name: Imperial Networks
-  - Set timezone: Asia/Manila
-  - Configure basic settings
 
 - [ ] **Export data from McBroad's UISP**
   - Database backup: `docker exec -t ucrm-postgres pg_dumpall -c -U postgres > backup.sql`
@@ -100,6 +154,7 @@
   - Stop UISP services
   - Restore database: `cat backup.sql | docker exec -i unms-postgres psql -U postgres`
   - Verify data integrity
+  - Re-run plugin cache sync
   - Start services
 
 ### Post-Migration
@@ -108,16 +163,15 @@
   - SMTP server settings
   - Test email delivery
 
-- [ ] **Install official plugins** (from UISP plugin repository)
+- [ ] **Install additional plugins** (from UISP plugin repository)
   - [ ] Twilio SMS Gateway (replace McBroad's custom SMS)
   - [ ] Stripe or PayPal (temporary payment solution)
   - [ ] Invoice CSV Export
   - [ ] Revenue Report
 
-- [ ] **Rebuild custom integrations**
-  - [ ] PayMongo Payment Portal (CRITICAL - revenue impact)
-  - [ ] MikroTik RouterOS integration
-  - [ ] Custom invoice templates
+- [ ] **Rebuild PayMongo integration** (CRITICAL - revenue impact)
+  - Build custom plugin or find alternative
+  - Test payment processing
 
 - [ ] **DNS cutover**
   - Reduce TTL to 300 seconds (48 hours before)
@@ -156,6 +210,55 @@ docker exec -it unms-postgres psql -U postgres
 
 # UISP CLI tool
 sudo /home/unms/app/unms-cli --help
+
+# Check RouterOS plugin logs
+sudo cat /home/unms/data/ucrm/ucrm/data/plugins/ros-plugin/data/plugin.log
+
+# Check plugin job queue
+sudo cat /home/unms/data/ucrm/ucrm/data/plugins/ros-plugin/data/queue.json
+
+# Trigger plugin cache refresh
+curl -k -X POST "https://localhost/crm/_plugins/ros-plugin/public.php" \
+  -H "Content-Type: application/json" \
+  -d '{"changeType":"admin","target":"cache"}'
+
+# Trigger device rebuild
+curl -k -X POST "https://localhost/crm/_plugins/ros-plugin/public.php" \
+  -H "Content-Type: application/json" \
+  -d '{"changeType":"update","target":"system","action":"insert","data":{"type":"device","id":1}}'
+```
+
+---
+
+## RouterOS Plugin Troubleshooting
+
+### Common Issues
+
+| Issue | Cause | Solution |
+|-------|-------|----------|
+| "input does not match any value of profile" | PPPoE profile doesn't exist on MikroTik | Create matching profiles on router |
+| Services not syncing | Cache needs refresh | Set `next_cache` to past date in data.db |
+| Webhook not firing | Webhook not configured | Click "Add webhook" in plugin settings |
+| Panel not loading | Service worker cache issue | Clear browser cache or use incognito |
+
+### Plugin Database Commands
+
+```bash
+# Check plugin config
+sudo sqlite3 /home/unms/data/ucrm/ucrm/data/plugins/ros-plugin/data/data.db \
+  "SELECT key, value FROM config WHERE key LIKE '%attr%';"
+
+# Check synced services
+sudo sqlite3 /home/unms/data/ucrm/ucrm/data/plugins/ros-plugin/data/data.db \
+  "SELECT * FROM services;"
+
+# Check cached services
+sudo sqlite3 /home/unms/data/ucrm/ucrm/data/plugins/ros-plugin/data/cache.db \
+  "SELECT id, username, password, device FROM services;"
+
+# Force cache refresh
+sudo sqlite3 /home/unms/data/ucrm/ucrm/data/plugins/ros-plugin/data/data.db \
+  "UPDATE config SET value='2020-01-01' WHERE key='next_cache';"
 ```
 
 ---
@@ -168,7 +271,9 @@ sudo /home/unms/app/unms-cli --help
 | Docker | 29.2.1 |
 | UISP Version | 2.4.206 |
 | CRM Version | 4.4.31 |
+| RouterOS Plugin | 2.3.5 |
 | Server IP | 10.255.255.86 |
+| MikroTik Router | 10.86.0.23 (main-ac) |
 | RAM | 3.8 GB (⚠️ below 8GB recommended) |
 | Disk | ~27 GB free (⚠️ below 100GB recommended) |
 
@@ -182,12 +287,14 @@ sudo /home/unms/app/unms-cli --help
 1. Create full backup of fresh installation
 2. Document current state
 3. Test restore procedure
+4. Note plugin configurations (will need reconfiguration)
 
 ### Rollback Plan
 If issues occur after database import:
 1. Stop UISP services
 2. Restore fresh database backup
-3. Restart services
+3. Reconfigure RouterOS plugin
+4. Restart services
 
 ---
 
@@ -199,5 +306,5 @@ If issues occur after database import:
 
 ---
 
-**Last Updated:** February 4, 2026
+**Last Updated:** February 4, 2026 (22:45 PHT)
 **Next Review:** After database migration
