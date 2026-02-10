@@ -87,6 +87,38 @@ Created service-level custom attributes in UISP:
 | pppoe_user_attr | `pppoeusername` |
 | pppoe_pass_attr | `pppoepassword` |
 
+### 9. Client Import Script ✓
+Created Python import script to migrate ~10K clients from CSV to UISP via REST API.
+
+**Location:** `/home/imperial/projects/imperial-investigation/scripts/`
+
+| File | Purpose |
+|------|---------|
+| `import_clients.py` | Main import script |
+| `config.py` | API configuration (gitignored) |
+| `config.py.example` | Template config file |
+| `requirements.txt` | Python dependencies |
+| `README.md` | Usage instructions |
+
+**CSV Statistics:**
+- 9,871 clients with services
+- 33 unique service plans
+- Top plans: SILVER 999 (2,603), BRONZE 799 (2,451), SOLO PLAN (1,656)
+
+**Usage:**
+```bash
+cd /home/imperial/projects/imperial-investigation/scripts
+pip install -r requirements.txt
+cp config.py.example config.py
+# Edit config.py with API token
+
+# Test with 10 clients
+python import_clients.py --test --verbose
+
+# Full import
+python import_clients.py --verbose
+```
+
 ---
 
 ## UISP Installation Structure
@@ -143,14 +175,21 @@ Created service-level custom attributes in UISP:
 
 ### Immediate (Before Feb 15 Deadline)
 
-- [ ] **Export data from McBroad's UISP**
-  - Database backup: `docker exec -t ucrm-postgres pg_dumpall -c -U postgres > backup.sql`
-  - Export clients to CSV (via UISP UI)
-  - Export invoices (via UISP UI)
-  - Export payment history (via UISP UI)
-  - Screenshot all configuration pages
+- [x] **Export data from McBroad's UISP**
+  - [x] Export clients to CSV (via UISP UI) → `414_export_2026-02-04_200703.csv`
+  - [x] Export payment history (via UISP UI) → `413_export_overview_2026-02-04_183358.csv`
+  - [ ] Database backup: `docker exec -t ucrm-postgres pg_dumpall -c -U postgres > backup.sql`
+  - [ ] Export invoices (via UISP UI)
+  - [ ] Screenshot all configuration pages
 
-- [ ] **Import database to new instance**
+- [ ] **Import clients via API** (CSV-based)
+  - [ ] Generate API token in UISP (System > Security > Users)
+  - [ ] Create service plans matching CSV (33 plans needed)
+  - [ ] Test import with 10 clients
+  - [ ] Run full import (~9,871 clients)
+  - [ ] Verify import count and spot-check
+
+- [ ] **Database import option** (alternative to CSV)
   - Stop UISP services
   - Restore database: `cat backup.sql | docker exec -i unms-postgres psql -U postgres`
   - Verify data integrity
@@ -306,5 +345,5 @@ If issues occur after database import:
 
 ---
 
-**Last Updated:** February 4, 2026 (22:45 PHT)
-**Next Review:** After database migration
+**Last Updated:** February 4, 2026 (23:45 PHT)
+**Next Review:** After client import

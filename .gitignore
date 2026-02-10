@@ -1,0 +1,23 @@
+# Config files with secrets
+scripts/config.py
+
+# Log files
+*.log
+scripts/*.log
+
+# Failed import reports
+scripts/failed_clients_*.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+venv/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo

@@ -1,0 +1,19 @@
+# UISP CRM API Configuration
+# Copy this file to config.py and fill in your values
+
+# UISP CRM Base URL (no trailing slash)
+UISP_BASE_URL = "https://10.255.255.86"
+
+# API Token - Generate from: System > Security > Users > Edit User > App Key
+UISP_API_TOKEN = "your-api-token-here"
+
+# Path to the CSV export file
+CSV_FILE_PATH = "/home/imperial/projects/414_export_2026-02-04_200703.csv"
+
+# Import settings
+BATCH_SIZE = 500  # Number of clients to import per batch
+TEST_MODE = True  # Set to False for full import
+TEST_LIMIT = 10   # Number of clients to import in test mode
+
+# SSL Verification (set to False if using self-signed certificate)
+VERIFY_SSL = False
