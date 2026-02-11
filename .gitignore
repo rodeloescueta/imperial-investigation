@@ -1,5 +1,9 @@
 # Config files with secrets
 scripts/config.py
+local.md
+
+# Large data exports
+scripts/invoices_export.json
 
 # Log files
 *.log
