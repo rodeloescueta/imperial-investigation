@@ -1,0 +1,60 @@
+{
+    "version": "1",
+    "information": {
+        "name": "paymongo-gateway",
+        "displayName": "PayMongo Payment Gateway",
+        "description": "Accept payments via PayMongo (GCash, Maya, GrabPay, Credit Cards) for UISP invoices",
+        "url": "",
+        "version": "1.0.0",
+        "ucrmVersionCompliancy": {
+            "min": "2.14.0",
+            "max": null
+        },
+        "unmsVersionCompliancy": {
+            "min": "1.0.0",
+            "max": null
+        },
+        "author": "Imperial Networks"
+    },
+    "configuration": [
+        {
+            "key": "paymongoSecretKey",
+            "label": "PayMongo Secret Key",
+            "description": "Your PayMongo secret API key (starts with sk_live_ or sk_test_)",
+            "required": 1,
+            "type": "text"
+        },
+        {
+            "key": "paymongoWebhookSecret",
+            "label": "PayMongo Webhook Secret Key",
+            "description": "Webhook signing secret from PayMongo dashboard (starts with whsec_)",
+            "required": 1,
+            "type": "text"
+        },
+        {
+            "key": "paymentMethodId",
+            "label": "UISP Payment Method UUID",
+            "description": "UUID of the 'PayMongo Payment Gateway' payment method in UISP (System > Billing > Payment Methods)",
+            "required": 1,
+            "type": "text"
+        },
+        {
+            "key": "paymentMethodTypes",
+            "label": "Payment Methods",
+            "description": "Comma-separated PayMongo payment method types: card,gcash,paymaya,grab_pay",
+            "required": 1,
+            "type": "text"
+        }
+    ],
+    "menu": [
+        {
+            "type": "admin",
+            "target": "iframe",
+            "key": "Billing",
+            "label": "PayMongo Gateway"
+        }
+    ],
+    "paymentButton": {
+        "label": "PayMongo"
+    }
+}

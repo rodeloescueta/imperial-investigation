@@ -212,11 +212,39 @@ python3 import_pppoe.py            # apply
 - [ ] Staging backup created and downloaded
 - [ ] Backup restored on production
 - [ ] Hostname/IP updated on production
-- [ ] DNS records updated
-- [ ] SSL certificate configured
+- [ ] DNS `uisp.imperialnetworkph.com` → production server IP
+- [ ] SSL certificate configured for `uisp.imperialnetworkph.com`
 - [ ] MikroTik router connected
 - [ ] SMTP configured (see settings above)
+- [ ] PayMongo plugin installed and configured (see below)
 - [ ] Final verification of all data in production UI
+
+---
+
+## PayMongo Payment Gateway Plugin
+
+**Source:** `paymongo-gateway/` in this repo
+**Task doc:** `.claude/tasks/uisp-paymongo-integration.md`
+
+### Deployment Steps (on production)
+
+1. Pull this repo on the production server
+2. Package the plugin:
+   ```bash
+   cd paymongo-gateway
+   zip -r paymongo-gateway.zip manifest.json main.php public.php src/ templates/
+   ```
+3. Upload `paymongo-gateway.zip` via UISP admin: **System > Plugins > Add Plugin**
+4. Create a payment method in UISP: **System > Billing > Payment Methods** → add "PayMongo Payment Gateway", copy its UUID
+5. Configure the plugin with:
+   - PayMongo Secret Key (`sk_live_...`)
+   - PayMongo Webhook Secret (`whsec_...`)
+   - Payment Method UUID (from step 4)
+   - Payment Methods: `card,gcash,paymaya,grab_pay`
+6. In PayMongo dashboard, create a webhook:
+   - URL: `https://uisp.imperialnetworkph.com/crm/_plugins/paymongo-gateway/public.php?action=webhook`
+   - Events: `checkout_session.payment.paid`
+7. Test with PayMongo test mode keys and card `4343434343434345`
 
 ---
 
@@ -225,9 +253,11 @@ python3 import_pppoe.py            # apply
 | Item | Value |
 |------|-------|
 | Staging server | `10.255.255.86` (UISP 3.0.151) |
+| Production domain | `uisp.imperialnetworkph.com` |
 | Old UISP | `uisp.imperial-networks.com` (UISP 2.4.206) |
 | Old UISP access deadline | February 15, 2026 |
 | Client import task | `.claude/tasks/uisp-csv-client-import.md` |
 | Invoice import task | `.claude/tasks/uisp-invoice-import.md` |
 | PPPoE import task | `.claude/tasks/uisp-pppoe-import.md` |
+| PayMongo plugin task | `.claude/tasks/uisp-paymongo-integration.md` |
 | Migration documentation | `.claude/docs/uisp-migration-data-import.md` |
