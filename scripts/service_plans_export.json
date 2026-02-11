@@ -1,0 +1,4960 @@
+[
+  {
+    "id": 3,
+    "servicePlanType": "Internet",
+    "name": "01. SOLO PLAN",
+    "invoiceLabel": null,
+    "downloadBurst": null,
+    "uploadBurst": null,
+    "downloadSpeed": 35.0,
+    "uploadSpeed": 35.0,
+    "aggregation": null,
+    "dataUsageLimit": null,
+    "organizationId": 1,
+    "taxable": false,
+    "taxId": null,
+    "amountExemptFromTaxation": null,
+    "setupFee": null,
+    "earlyTerminationFee": null,
+    "minimumContractLengthMonths": null,
+    "periods": [
+      {
+        "id": 13,
+        "price": 599.0,
+        "period": 1,
+        "enabled": true
+      },
+      {
+        "id": 14,
+        "price": null,
+        "period": 2,
+        "enabled": false
+      },
+      {
+        "id": 15,
+        "price": null,
+        "period": 3,
+        "enabled": false
+      },
+      {
+        "id": 16,
+        "price": null,
+        "period": 6,
+        "enabled": false
+      },
+      {
+        "id": 17,
+        "price": null,
+        "period": 12,
+        "enabled": false
+      },
+      {
+        "id": 18,
+        "price": null,
+        "period": 24,
+        "enabled": false
+      }
+    ],
+    "public": false,
+    "prepaid": false,
+    "prepaidConfiguration": {
+      "pricePerDay": null
+    },
+    "servicePlanGroups": [],
+    "defaultServicePlanGroupId": null,
+    "uploadSpeedLimited": null,
+    "downloadSpeedLimited": null,
+    "archived": false
+  },
+  {
+    "id": 4,
+    "servicePlanType": "Internet",
+    "name": "02.  BRONZE 799",
+    "invoiceLabel": null,
+    "downloadBurst": null,
+    "uploadBurst": null,
+    "downloadSpeed": 50.0,
+    "uploadSpeed": 50.0,
+    "aggregation": null,
+    "dataUsageLimit": null,
+    "organizationId": 1,
+    "taxable": false,
+    "taxId": null,
+    "amountExemptFromTaxation": null,
+    "setupFee": null,
+    "earlyTerminationFee": null,
+    "minimumContractLengthMonths": null,
+    "periods": [
+      {
+        "id": 19,
+        "price": 799.0,
+        "period": 1,
+        "enabled": true
+      },
+      {
+        "id": 20,
+        "price": null,
+        "period": 2,
+        "enabled": false
+      },
+      {
+        "id": 21,
+        "price": null,
+        "period": 3,
+        "enabled": false
+      },
+      {
+        "id": 22,
+        "price": null,
+        "period": 6,
+        "enabled": false
+      },
+      {
+        "id": 23,
+        "price": null,
+        "period": 12,
+        "enabled": false
+      },
+      {
+        "id": 24,
+        "price": null,
+        "period": 24,
+        "enabled": false
+      }
+    ],
+    "public": false,
+    "prepaid": false,
+    "prepaidConfiguration": {
+      "pricePerDay": null
+    },
+    "servicePlanGroups": [],
+    "defaultServicePlanGroupId": null,
+    "uploadSpeedLimited": null,
+    "downloadSpeedLimited": null,
+    "archived": false
+  },
+  {
+    "id": 5,
+    "servicePlanType": "Internet",
+    "name": "03. SILVER 999",
+    "invoiceLabel": null,
+    "downloadBurst": null,
+    "uploadBurst": null,
+    "downloadSpeed": 100.0,
+    "uploadSpeed": 100.0,
+    "aggregation": null,
+    "dataUsageLimit": null,
+    "organizationId": 1,
+    "taxable": false,
+    "taxId": null,
+    "amountExemptFromTaxation": null,
+    "setupFee": null,
+    "earlyTerminationFee": null,
+    "minimumContractLengthMonths": null,
+    "periods": [
+      {
+        "id": 25,
+        "price": 999.0,
+        "period": 1,
+        "enabled": true
+      },
+      {
+        "id": 26,
+        "price": null,
+        "period": 2,
+        "enabled": false
+      },
+      {
+        "id": 27,
+        "price": null,
+        "period": 3,
+        "enabled": false
+      },
+      {
+        "id": 28,
+        "price": null,
+        "period": 6,
+        "enabled": false
+      },
+      {
+        "id": 29,
+        "price": null,
+        "period": 12,
+        "enabled": false
+      },
+      {
+        "id": 30,
+        "price": null,
+        "period": 24,
+        "enabled": false
+      }
+    ],
+    "public": false,
+    "prepaid": false,
+    "prepaidConfiguration": {
+      "pricePerDay": null
+    },
+    "servicePlanGroups": [],
+    "defaultServicePlanGroupId": null,
+    "uploadSpeedLimited": null,
+    "downloadSpeedLimited": null,
+    "archived": false
+  },
+  {
+    "id": 6,
+    "servicePlanType": "Internet",
+    "name": "04. GOLD 1200",
+    "invoiceLabel": null,
+    "downloadBurst": null,
+    "uploadBurst": null,
+    "downloadSpeed": 150.0,
+    "uploadSpeed": 150.0,
+    "aggregation": null,
+    "dataUsageLimit": null,
+    "organizationId": 1,
+    "taxable": false,
+    "taxId": null,
+    "amountExemptFromTaxation": null,
+    "setupFee": null,
+    "earlyTerminationFee": null,
+    "minimumContractLengthMonths": null,
+    "periods": [
+      {
+        "id": 31,
+        "price": 1200.0,
+        "period": 1,
+        "enabled": true
+      },
+      {
+        "id": 32,
+        "price": null,
+        "period": 2,
+        "enabled": false
+      },
+      {
+        "id": 33,
+        "price": null,
+        "period": 3,
+        "enabled": false
+      },
+      {
+        "id": 34,
+        "price": null,
+        "period": 6,
+        "enabled": false
+      },
+      {
+        "id": 35,
+        "price": null,
+        "period": 12,
+        "enabled": false
+      },
+      {
+        "id": 36,
+        "price": null,
+        "period": 24,
+        "enabled": false
+      }
+    ],
+    "public": false,
+    "prepaid": false,
+    "prepaidConfiguration": {
+      "pricePerDay": null
+    },
+    "servicePlanGroups": [],
+    "defaultServicePlanGroupId": null,
+    "uploadSpeedLimited": null,
+    "downloadSpeedLimited": null,
+    "archived": false
+  },
+  {
+    "id": 7,
+    "servicePlanType": "Internet",
+    "name": "05. PLATINUM 1400",
+    "invoiceLabel": null,
+    "downloadBurst": null,
+    "uploadBurst": null,
+    "downloadSpeed": 200.0,
+    "uploadSpeed": 200.0,
+    "aggregation": null,
+    "dataUsageLimit": null,
+    "organizationId": 1,
+    "taxable": false,
+    "taxId": null,
+    "amountExemptFromTaxation": null,
+    "setupFee": null,
+    "earlyTerminationFee": null,
+    "minimumContractLengthMonths": null,
+    "periods": [
+      {
+        "id": 37,
+        "price": 1400.0,
+        "period": 1,
+        "enabled": true
+      },
+      {
+        "id": 38,
+        "price": null,
+        "period": 2,
+        "enabled": false
+      },
+      {
+        "id": 39,
+        "price": null,
+        "period": 3,
+        "enabled": false
+      },
+      {
+        "id": 40,
+        "price": null,
+        "period": 6,
+        "enabled": false
+      },
+      {
+        "id": 41,
+        "price": null,
+        "period": 12,
+        "enabled": false
+      },
+      {
+        "id": 42,
+        "price": null,
+        "period": 24,
+        "enabled": false
+      }
+    ],
+    "public": false,
+    "prepaid": false,
+    "prepaidConfiguration": {
+      "pricePerDay": null
+    },
+    "servicePlanGroups": [],
+    "defaultServicePlanGroupId": null,
+    "uploadSpeedLimited": null,
+    "downloadSpeedLimited": null,
+    "archived": false
+  },
+  {
+    "id": 8,
+    "servicePlanType": "Internet",
+    "name": "06. DIAMOND 1600",
+    "invoiceLabel": null,
+    "downloadBurst": null,
+    "uploadBurst": null,
+    "downloadSpeed": 300.0,
+    "uploadSpeed": 300.0,
+    "aggregation": null,
+    "dataUsageLimit": null,
+    "organizationId": 1,
+    "taxable": false,
+    "taxId": null,
+    "amountExemptFromTaxation": null,
+    "setupFee": null,
+    "earlyTerminationFee": null,
+    "minimumContractLengthMonths": null,
+    "periods": [
+      {
+        "id": 43,
+        "price": 1600.0,
+        "period": 1,
+        "enabled": true
+      },
+      {
+        "id": 44,
+        "price": null,
+        "period": 2,
+        "enabled": false
+      },
+      {
+        "id": 45,
+        "price": null,
+        "period": 3,
+        "enabled": false
+      },
+      {
+        "id": 46,
+        "price": null,
+        "period": 6,
+        "enabled": false
+      },
+      {
+        "id": 47,
+        "price": null,
+        "period": 12,
+        "enabled": false
+      },
+      {
+        "id": 48,
+        "price": null,
+        "period": 24,
+        "enabled": false
+      }
+    ],
+    "public": false,
+    "prepaid": false,
+    "prepaidConfiguration": {
+      "pricePerDay": null
+    },
+    "servicePlanGroups": [],
+    "defaultServicePlanGroupId": null,
+    "uploadSpeedLimited": null,
+    "downloadSpeedLimited": null,
+    "archived": false
+  },
+  {
+    "id": 9,
+    "servicePlanType": "Internet",
+    "name": "07. RUBY 2000",
+    "invoiceLabel": null,
+    "downloadBurst": null,
+    "uploadBurst": null,
+    "downloadSpeed": 500.0,
+    "uploadSpeed": 500.0,
+    "aggregation": null,
+    "dataUsageLimit": null,
+    "organizationId": 1,
+    "taxable": false,
+    "taxId": null,
+    "amountExemptFromTaxation": null,
+    "setupFee": null,
+    "earlyTerminationFee": null,
+    "minimumContractLengthMonths": null,
+    "periods": [
+      {
+        "id": 49,
+        "price": 2000.0,
+        "period": 1,
+        "enabled": true
+      },
+      {
+        "id": 50,
+        "price": null,
+        "period": 2,
+        "enabled": false
+      },
+      {
+        "id": 51,
+        "price": null,
+        "period": 3,
+        "enabled": false
+      },
+      {
+        "id": 52,
+        "price": null,
+        "period": 6,
+        "enabled": false
+      },
+      {
+        "id": 53,
+        "price": null,
+        "period": 12,
+        "enabled": false
+      },
+      {
+        "id": 54,
+        "price": null,
+        "period": 24,
+        "enabled": false
+      }
+    ],
+    "public": false,
+    "prepaid": false,
+    "prepaidConfiguration": {
+      "pricePerDay": null
+    },
+    "servicePlanGroups": [],
+    "defaultServicePlanGroupId": null,
+    "uploadSpeedLimited": null,
+    "downloadSpeedLimited": null,
+    "archived": false
+  },
+  {
+    "id": 10,
+    "servicePlanType": "Internet",
+    "name": "08. OLD 800",
+    "invoiceLabel": null,
+    "downloadBurst": null,
+    "uploadBurst": null,
+    "downloadSpeed": 50.0,
+    "uploadSpeed": 50.0,
+    "aggregation": null,
+    "dataUsageLimit": null,
+    "organizationId": 1,
+    "taxable": false,
+    "taxId": null,
+    "amountExemptFromTaxation": null,
+    "setupFee": null,
+    "earlyTerminationFee": null,
+    "minimumContractLengthMonths": null,
+    "periods": [
+      {
+        "id": 55,
+        "price": 800.0,
+        "period": 1,
+        "enabled": true
+      },
+      {
+        "id": 56,
+        "price": null,
+        "period": 2,
+        "enabled": false
+      },
+      {
+        "id": 57,
+        "price": null,
+        "period": 3,
+        "enabled": false
+      },
+      {
+        "id": 58,
+        "price": null,
+        "period": 6,
+        "enabled": false
+      },
+      {
+        "id": 59,
+        "price": null,
+        "period": 12,
+        "enabled": false
+      },
+      {
+        "id": 60,
+        "price": null,
+        "period": 24,
+        "enabled": false
+      }
+    ],
+    "public": false,
+    "prepaid": false,
+    "prepaidConfiguration": {
+      "pricePerDay": null
+    },
+    "servicePlanGroups": [],
+    "defaultServicePlanGroupId": null,
+    "uploadSpeedLimited": null,
+    "downloadSpeedLimited": null,
+    "archived": false
+  },
+  {
+    "id": 11,
+    "servicePlanType": "Internet",
+    "name": "09. SOLO INSTALLMENT 699",
+    "invoiceLabel": null,
+    "downloadBurst": null,
+    "uploadBurst": null,
+    "downloadSpeed": 35.0,
+    "uploadSpeed": 35.0,
+    "aggregation": null,
+    "dataUsageLimit": null,
+    "organizationId": 1,
+    "taxable": false,
+    "taxId": null,
+    "amountExemptFromTaxation": null,
+    "setupFee": null,
+    "earlyTerminationFee": null,
+    "minimumContractLengthMonths": null,
+    "periods": [
+      {
+        "id": 61,
+        "price": 699.0,
+        "period": 1,
+        "enabled": true
+      },
+      {
+        "id": 62,
+        "price": null,
+        "period": 2,
+        "enabled": false
+      },
+      {
+        "id": 63,
+        "price": null,
+        "period": 3,
+        "enabled": false
+      },
+      {
+        "id": 64,
+        "price": null,
+        "period": 6,
+        "enabled": false
+      },
+      {
+        "id": 65,
+        "price": null,
+        "period": 12,
+        "enabled": false
+      },
+      {
+        "id": 66,
+        "price": null,
+        "period": 24,
+        "enabled": false
+      }
+    ],
+    "public": false,
+    "prepaid": false,
+    "prepaidConfiguration": {
+      "pricePerDay": null
+    },
+    "servicePlanGroups": [],
+    "defaultServicePlanGroupId": null,
+    "uploadSpeedLimited": null,
+    "downloadSpeedLimited": null,
+    "archived": false
+  },
+  {
+    "id": 12,
+    "servicePlanType": "Internet",
+    "name": "10. BRONZE INSTALLMENT 899",
+    "invoiceLabel": null,
+    "downloadBurst": null,
+    "uploadBurst": null,
+    "downloadSpeed": 50.0,
+    "uploadSpeed": 50.0,
+    "aggregation": null,
+    "dataUsageLimit": null,
+    "organizationId": 1,
+    "taxable": false,
+    "taxId": null,
+    "amountExemptFromTaxation": null,
+    "setupFee": null,
+    "earlyTerminationFee": null,
+    "minimumContractLengthMonths": null,
+    "periods": [
+      {
+        "id": 67,
+        "price": 899.0,
+        "period": 1,
+        "enabled": true
+      },
+      {
+        "id": 68,
+        "price": null,
+        "period": 2,
+        "enabled": false
+      },
+      {
+        "id": 69,
+        "price": null,
+        "period": 3,
+        "enabled": false
+      },
+      {
+        "id": 70,
+        "price": null,
+        "period": 6,
+        "enabled": false
+      },
+      {
+        "id": 71,
+        "price": null,
+        "period": 12,
+        "enabled": false
+      },
+      {
+        "id": 72,
+        "price": null,
+        "period": 24,
+        "enabled": false
+      }
+    ],
+    "public": false,
+    "prepaid": false,
+    "prepaidConfiguration": {
+      "pricePerDay": null
+    },
+    "servicePlanGroups": [],
+    "defaultServicePlanGroupId": null,
+    "uploadSpeedLimited": null,
+    "downloadSpeedLimited": null,
+    "archived": false
+  },
+  {
+    "id": 13,
+    "servicePlanType": "Internet",
+    "name": "11. SILVER INSTALLMENT 1099",
+    "invoiceLabel": null,
+    "downloadBurst": null,
+    "uploadBurst": null,
+    "downloadSpeed": 100.0,
+    "uploadSpeed": 100.0,
+    "aggregation": null,
+    "dataUsageLimit": null,
+    "organizationId": 1,
+    "taxable": false,
+    "taxId": null,
+    "amountExemptFromTaxation": null,
+    "setupFee": null,
+    "earlyTerminationFee": null,
+    "minimumContractLengthMonths": null,
+    "periods": [
+      {
+        "id": 73,
+        "price": 1099.0,
+        "period": 1,
+        "enabled": true
+      },
+      {
+        "id": 74,
+        "price": null,
+        "period": 2,
+        "enabled": false
+      },
+      {
+        "id": 75,
+        "price": null,
+        "period": 3,
+        "enabled": false
+      },
+      {
+        "id": 76,
+        "price": null,
+        "period": 6,
+        "enabled": false
+      },
+      {
+        "id": 77,
+        "price": null,
+        "period": 12,
+        "enabled": false
+      },
+      {
+        "id": 78,
+        "price": null,
+        "period": 24,
+        "enabled": false
+      }
+    ],
+    "public": false,
+    "prepaid": false,
+    "prepaidConfiguration": {
+      "pricePerDay": null
+    },
+    "servicePlanGroups": [],
+    "defaultServicePlanGroupId": null,
+    "uploadSpeedLimited": null,
+    "downloadSpeedLimited": null,
+    "archived": false
+  },
+  {
+    "id": 14,
+    "servicePlanType": "Internet",
+    "name": "12. GOLD INSTALLMENT 1300",
+    "invoiceLabel": null,
+    "downloadBurst": null,
+    "uploadBurst": null,
+    "downloadSpeed": 150.0,
+    "uploadSpeed": 150.0,
+    "aggregation": null,
+    "dataUsageLimit": null,
+    "organizationId": 1,
+    "taxable": false,
+    "taxId": null,
+    "amountExemptFromTaxation": null,
+    "setupFee": null,
+    "earlyTerminationFee": null,
+    "minimumContractLengthMonths": null,
+    "periods": [
+      {
+        "id": 79,
+        "price": 1300.0,
+        "period": 1,
+        "enabled": true
+      },
+      {
+        "id": 80,
+        "price": null,
+        "period": 2,
+        "enabled": false
+      },
+      {
+        "id": 81,
+        "price": null,
+        "period": 3,
+        "enabled": false
+      },
+      {
+        "id": 82,
+        "price": null,
+        "period": 6,
+        "enabled": false
+      },
+      {
+        "id": 83,
+        "price": null,
+        "period": 12,
+        "enabled": false
+      },
+      {
+        "id": 84,
+        "price": null,
+        "period": 24,
+        "enabled": false
+      }
+    ],
+    "public": false,
+    "prepaid": false,
+    "prepaidConfiguration": {
+      "pricePerDay": null
+    },
+    "servicePlanGroups": [],
+    "defaultServicePlanGroupId": null,
+    "uploadSpeedLimited": null,
+    "downloadSpeedLimited": null,
+    "archived": false
+  },
+  {
+    "id": 15,
+    "servicePlanType": "Internet",
+    "name": "13. PLATINUM INSTALLMENT 1500",
+    "invoiceLabel": null,
+    "downloadBurst": null,
+    "uploadBurst": null,
+    "downloadSpeed": 200.0,
+    "uploadSpeed": 200.0,
+    "aggregation": null,
+    "dataUsageLimit": null,
+    "organizationId": 1,
+    "taxable": false,
+    "taxId": null,
+    "amountExemptFromTaxation": null,
+    "setupFee": null,
+    "earlyTerminationFee": null,
+    "minimumContractLengthMonths": null,
+    "periods": [
+      {
+        "id": 85,
+        "price": 1500.0,
+        "period": 1,
+        "enabled": true
+      },
+      {
+        "id": 86,
+        "price": null,
+        "period": 2,
+        "enabled": false
+      },
+      {
+        "id": 87,
+        "price": null,
+        "period": 3,
+        "enabled": false
+      },
+      {
+        "id": 88,
+        "price": null,
+        "period": 6,
+        "enabled": false
+      },
+      {
+        "id": 89,
+        "price": null,
+        "period": 12,
+        "enabled": false
+      },
+      {
+        "id": 90,
+        "price": null,
+        "period": 24,
+        "enabled": false
+      }
+    ],
+    "public": false,
+    "prepaid": false,
+    "prepaidConfiguration": {
+      "pricePerDay": null
+    },
+    "servicePlanGroups": [],
+    "defaultServicePlanGroupId": null,
+    "uploadSpeedLimited": null,
+    "downloadSpeedLimited": null,
+    "archived": false
+  },
+  {
+    "id": 16,
+    "servicePlanType": "Internet",
+    "name": "14. DIAMOND INSTALLMENT 1700",
+    "invoiceLabel": null,
+    "downloadBurst": null,
+    "uploadBurst": null,
+    "downloadSpeed": 300.0,
+    "uploadSpeed": 300.0,
+    "aggregation": null,
+    "dataUsageLimit": null,
+    "organizationId": 1,
+    "taxable": false,
+    "taxId": null,
+    "amountExemptFromTaxation": null,
+    "setupFee": null,
+    "earlyTerminationFee": null,
+    "minimumContractLengthMonths": null,
+    "periods": [
+      {
+        "id": 91,
+        "price": 1700.0,
+        "period": 1,
+        "enabled": true
+      },
+      {
+        "id": 92,
+        "price": null,
+        "period": 2,
+        "enabled": false
+      },
+      {
+        "id": 93,
+        "price": null,
+        "period": 3,
+        "enabled": false
+      },
+      {
+        "id": 94,
+        "price": null,
+        "period": 6,
+        "enabled": false
+      },
+      {
+        "id": 95,
+        "price": null,
+        "period": 12,
+        "enabled": false
+      },
+      {
+        "id": 96,
+        "price": null,
+        "period": 24,
+        "enabled": false
+      }
+    ],
+    "public": false,
+    "prepaid": false,
+    "prepaidConfiguration": {
+      "pricePerDay": null
+    },
+    "servicePlanGroups": [],
+    "defaultServicePlanGroupId": null,
+    "uploadSpeedLimited": null,
+    "downloadSpeedLimited": null,
+    "archived": false
+  },
+  {
+    "id": 17,
+    "servicePlanType": "Internet",
+    "name": "15. RUBY INSTALLMENT 2100",
+    "invoiceLabel": null,
+    "downloadBurst": null,
+    "uploadBurst": null,
+    "downloadSpeed": 500.0,
+    "uploadSpeed": 500.0,
+    "aggregation": null,
+    "dataUsageLimit": null,
+    "organizationId": 1,
+    "taxable": false,
+    "taxId": null,
+    "amountExemptFromTaxation": null,
+    "setupFee": null,
+    "earlyTerminationFee": null,
+    "minimumContractLengthMonths": null,
+    "periods": [
+      {
+        "id": 97,
+        "price": 2100.0,
+        "period": 1,
+        "enabled": true
+      },
+      {
+        "id": 98,
+        "price": null,
+        "period": 2,
+        "enabled": false
+      },
+      {
+        "id": 99,
+        "price": null,
+        "period": 3,
+        "enabled": false
+      },
+      {
+        "id": 100,
+        "price": null,
+        "period": 6,
+        "enabled": false
+      },
+      {
+        "id": 101,
+        "price": null,
+        "period": 12,
+        "enabled": false
+      },
+      {
+        "id": 102,
+        "price": null,
+        "period": 24,
+        "enabled": false
+      }
+    ],
+    "public": false,
+    "prepaid": false,
+    "prepaidConfiguration": {
+      "pricePerDay": null
+    },
+    "servicePlanGroups": [],
+    "defaultServicePlanGroupId": null,
+    "uploadSpeedLimited": null,
+    "downloadSpeedLimited": null,
+    "archived": false
+  },
+  {
+    "id": 18,
+    "servicePlanType": "Internet",
+    "name": "16. SOLO INSTALLMENT 899",
+    "invoiceLabel": null,
+    "downloadBurst": null,
+    "uploadBurst": null,
+    "downloadSpeed": 35.0,
+    "uploadSpeed": 35.0,
+    "aggregation": null,
+    "dataUsageLimit": null,
+    "organizationId": 1,
+    "taxable": false,
+    "taxId": null,
+    "amountExemptFromTaxation": null,
+    "setupFee": null,
+    "earlyTerminationFee": null,
+    "minimumContractLengthMonths": null,
+    "periods": [
+      {
+        "id": 103,
+        "price": 899.0,
+        "period": 1,
+        "enabled": true
+      },
+      {
+        "id": 104,
+        "price": null,
+        "period": 2,
+        "enabled": false
+      },
+      {
+        "id": 105,
+        "price": null,
+        "period": 3,
+        "enabled": false
+      },
+      {
+        "id": 106,
+        "price": null,
+        "period": 6,
+        "enabled": false
+      },
+      {
+        "id": 107,
+        "price": null,
+        "period": 12,
+        "enabled": false
+      },
+      {
+        "id": 108,
+        "price": null,
+        "period": 24,
+        "enabled": false
+      }
+    ],
+    "public": false,
+    "prepaid": false,
+    "prepaidConfiguration": {
+      "pricePerDay": null
+    },
+    "servicePlanGroups": [],
+    "defaultServicePlanGroupId": null,
+    "uploadSpeedLimited": null,
+    "downloadSpeedLimited": null,
+    "archived": false
+  },
+  {
+    "id": 19,
+    "servicePlanType": "Internet",
+    "name": "17. BRONZE INSTALLMENT 999",
+    "invoiceLabel": null,
+    "downloadBurst": null,
+    "uploadBurst": null,
+    "downloadSpeed": 50.0,
+    "uploadSpeed": 50.0,
+    "aggregation": null,
+    "dataUsageLimit": null,
+    "organizationId": 1,
+    "taxable": false,
+    "taxId": null,
+    "amountExemptFromTaxation": null,
+    "setupFee": null,
+    "earlyTerminationFee": null,
+    "minimumContractLengthMonths": null,
+    "periods": [
+      {
+        "id": 109,
+        "price": 999.0,
+        "period": 1,
+        "enabled": true
+      },
+      {
+        "id": 110,
+        "price": null,
+        "period": 2,
+        "enabled": false
+      },
+      {
+        "id": 111,
+        "price": null,
+        "period": 3,
+        "enabled": false
+      },
+      {
+        "id": 112,
+        "price": null,
+        "period": 6,
+        "enabled": false
+      },
+      {
+        "id": 113,
+        "price": null,
+        "period": 12,
+        "enabled": false
+      },
+      {
+        "id": 114,
+        "price": null,
+        "period": 24,
+        "enabled": false
+      }
+    ],
+    "public": false,
+    "prepaid": false,
+    "prepaidConfiguration": {
+      "pricePerDay": null
+    },
+    "servicePlanGroups": [],
+    "defaultServicePlanGroupId": null,
+    "uploadSpeedLimited": null,
+    "downloadSpeedLimited": null,
+    "archived": false
+  },
+  {
+    "id": 20,
+    "servicePlanType": "Internet",
+    "name": "18. SILVER INSTALLMENT 1199",
+    "invoiceLabel": null,
+    "downloadBurst": null,
+    "uploadBurst": null,
+    "downloadSpeed": 100.0,
+    "uploadSpeed": 100.0,
+    "aggregation": null,
+    "dataUsageLimit": null,
+    "organizationId": 1,
+    "taxable": false,
+    "taxId": null,
+    "amountExemptFromTaxation": null,
+    "setupFee": null,
+    "earlyTerminationFee": null,
+    "minimumContractLengthMonths": null,
+    "periods": [
+      {
+        "id": 115,
+        "price": 1199.0,
+        "period": 1,
+        "enabled": true
+      },
+      {
+        "id": 116,
+        "price": null,
+        "period": 2,
+        "enabled": false
+      },
+      {
+        "id": 117,
+        "price": null,
+        "period": 3,
+        "enabled": false
+      },
+      {
+        "id": 118,
+        "price": null,
+        "period": 6,
+        "enabled": false
+      },
+      {
+        "id": 119,
+        "price": null,
+        "period": 12,
+        "enabled": false
+      },
+      {
+        "id": 120,
+        "price": null,
+        "period": 24,
+        "enabled": false
+      }
+    ],
+    "public": false,
+    "prepaid": false,
+    "prepaidConfiguration": {
+      "pricePerDay": null
+    },
+    "servicePlanGroups": [],
+    "defaultServicePlanGroupId": null,
+    "uploadSpeedLimited": null,
+    "downloadSpeedLimited": null,
+    "archived": false
+  },
+  {
+    "id": 21,
+    "servicePlanType": "Internet",
+    "name": "19. GOLD INSTALLMENT 1400",
+    "invoiceLabel": null,
+    "downloadBurst": null,
+    "uploadBurst": null,
+    "downloadSpeed": 150.0,
+    "uploadSpeed": 150.0,
+    "aggregation": null,
+    "dataUsageLimit": null,
+    "organizationId": 1,
+    "taxable": false,
+    "taxId": null,
+    "amountExemptFromTaxation": null,
+    "setupFee": null,
+    "earlyTerminationFee": null,
+    "minimumContractLengthMonths": null,
+    "periods": [
+      {
+        "id": 121,
+        "price": 1400.0,
+        "period": 1,
+        "enabled": true
+      },
+      {
+        "id": 122,
+        "price": null,
+        "period": 2,
+        "enabled": false
+      },
+      {
+        "id": 123,
+        "price": null,
+        "period": 3,
+        "enabled": false
+      },
+      {
+        "id": 124,
+        "price": null,
+        "period": 6,
+        "enabled": false
+      },
+      {
+        "id": 125,
+        "price": null,
+        "period": 12,
+        "enabled": false
+      },
+      {
+        "id": 126,
+        "price": null,
+        "period": 24,
+        "enabled": false
+      }
+    ],
+    "public": false,
+    "prepaid": false,
+    "prepaidConfiguration": {
+      "pricePerDay": null
+    },
+    "servicePlanGroups": [],
+    "defaultServicePlanGroupId": null,
+    "uploadSpeedLimited": null,
+    "downloadSpeedLimited": null,
+    "archived": false
+  },
+  {
+    "id": 22,
+    "servicePlanType": "Internet",
+    "name": "20. PLATINUM INSTALLMENT 1600",
+    "invoiceLabel": null,
+    "downloadBurst": null,
+    "uploadBurst": null,
+    "downloadSpeed": 200.0,
+    "uploadSpeed": 200.0,
+    "aggregation": null,
+    "dataUsageLimit": null,
+    "organizationId": 1,
+    "taxable": false,
+    "taxId": null,
+    "amountExemptFromTaxation": null,
+    "setupFee": null,
+    "earlyTerminationFee": null,
+    "minimumContractLengthMonths": null,
+    "periods": [
+      {
+        "id": 127,
+        "price": 1600.0,
+        "period": 1,
+        "enabled": true
+      },
+      {
+        "id": 128,
+        "price": null,
+        "period": 2,
+        "enabled": false
+      },
+      {
+        "id": 129,
+        "price": null,
+        "period": 3,
+        "enabled": false
+      },
+      {
+        "id": 130,
+        "price": null,
+        "period": 6,
+        "enabled": false
+      },
+      {
+        "id": 131,
+        "price": null,
+        "period": 12,
+        "enabled": false
+      },
+      {
+        "id": 132,
+        "price": null,
+        "period": 24,
+        "enabled": false
+      }
+    ],
+    "public": false,
+    "prepaid": false,
+    "prepaidConfiguration": {
+      "pricePerDay": null
+    },
+    "servicePlanGroups": [],
+    "defaultServicePlanGroupId": null,
+    "uploadSpeedLimited": null,
+    "downloadSpeedLimited": null,
+    "archived": false
+  },
+  {
+    "id": 23,
+    "servicePlanType": "Internet",
+    "name": "21. DIAMOND INSTALLMENT",
+    "invoiceLabel": null,
+    "downloadBurst": null,
+    "uploadBurst": null,
+    "downloadSpeed": 300.0,
+    "uploadSpeed": 300.0,
+    "aggregation": null,
+    "dataUsageLimit": null,
+    "organizationId": 1,
+    "taxable": false,
+    "taxId": null,
+    "amountExemptFromTaxation": null,
+    "setupFee": null,
+    "earlyTerminationFee": null,
+    "minimumContractLengthMonths": null,
+    "periods": [
+      {
+        "id": 133,
+        "price": 1800.0,
+        "period": 1,
+        "enabled": true
+      },
+      {
+        "id": 134,
+        "price": null,
+        "period": 2,
+        "enabled": false
+      },
+      {
+        "id": 135,
+        "price": null,
+        "period": 3,
+        "enabled": false
+      },
+      {
+        "id": 136,
+        "price": null,
+        "period": 6,
+        "enabled": false
+      },
+      {
+        "id": 137,
+        "price": null,
+        "period": 12,
+        "enabled": false
+      },
+      {
+        "id": 138,
+        "price": null,
+        "period": 24,
+        "enabled": false
+      }
+    ],
+    "public": false,
+    "prepaid": false,
+    "prepaidConfiguration": {
+      "pricePerDay": null
+    },
+    "servicePlanGroups": [],
+    "defaultServicePlanGroupId": null,
+    "uploadSpeedLimited": null,
+    "downloadSpeedLimited": null,
+    "archived": false
+  },
+  {
+    "id": 24,
+    "servicePlanType": "Internet",
+    "name": "22. RUBY INSTALLMENT 2200",
+    "invoiceLabel": null,
+    "downloadBurst": null,
+    "uploadBurst": null,
+    "downloadSpeed": 500.0,
+    "uploadSpeed": 500.0,
+    "aggregation": null,
+    "dataUsageLimit": null,
+    "organizationId": 1,
+    "taxable": false,
+    "taxId": null,
+    "amountExemptFromTaxation": null,
+    "setupFee": null,
+    "earlyTerminationFee": null,
+    "minimumContractLengthMonths": null,
+    "periods": [
+      {
+        "id": 139,
+        "price": 2200.0,
+        "period": 1,
+        "enabled": true
+      },
+      {
+        "id": 140,
+        "price": null,
+        "period": 2,
+        "enabled": false
+      },
+      {
+        "id": 141,
+        "price": null,
+        "period": 3,
+        "enabled": false
+      },
+      {
+        "id": 142,
+        "price": null,
+        "period": 6,
+        "enabled": false
+      },
+      {
+        "id": 143,
+        "price": null,
+        "period": 12,
+        "enabled": false
+      },
+      {
+        "id": 144,
+        "price": null,
+        "period": 24,
+        "enabled": false
+      }
+    ],
+    "public": false,
+    "prepaid": false,
+    "prepaidConfiguration": {
+      "pricePerDay": null
+    },
+    "servicePlanGroups": [],
+    "defaultServicePlanGroupId": null,
+    "uploadSpeedLimited": null,
+    "downloadSpeedLimited": null,
+    "archived": false
+  },
+  {
+    "id": 25,
+    "servicePlanType": "Internet",
+    "name": "23. OLD 1000",
+    "invoiceLabel": null,
+    "downloadBurst": null,
+    "uploadBurst": null,
+    "downloadSpeed": 150.0,
+    "uploadSpeed": null,
+    "aggregation": null,
+    "dataUsageLimit": null,
+    "organizationId": 1,
+    "taxable": false,
+    "taxId": null,
+    "amountExemptFromTaxation": null,
+    "setupFee": null,
+    "earlyTerminationFee": null,
+    "minimumContractLengthMonths": null,
+    "periods": [
+      {
+        "id": 145,
+        "price": 1000.0,
+        "period": 1,
+        "enabled": true
+      },
+      {
+        "id": 146,
+        "price": null,
+        "period": 2,
+        "enabled": false
+      },
+      {
+        "id": 147,
+        "price": null,
+        "period": 3,
+        "enabled": false
+      },
+      {
+        "id": 148,
+        "price": null,
+        "period": 6,
+        "enabled": false
+      },
+      {
+        "id": 149,
+        "price": null,
+        "period": 12,
+        "enabled": false
+      },
+      {
+        "id": 150,
+        "price": null,
+        "period": 24,
+        "enabled": false
+      }
+    ],
+    "public": false,
+    "prepaid": false,
+    "prepaidConfiguration": {
+      "pricePerDay": null
+    },
+    "servicePlanGroups": [],
+    "defaultServicePlanGroupId": null,
+    "uploadSpeedLimited": null,
+    "downloadSpeedLimited": null,
+    "archived": false
+  },
+  {
+    "id": 26,
+    "servicePlanType": "Internet",
+    "name": "24. Imperial Bliz",
+    "invoiceLabel": null,
+    "downloadBurst": null,
+    "uploadBurst": null,
+    "downloadSpeed": 500.0,
+    "uploadSpeed": 500.0,
+    "aggregation": null,
+    "dataUsageLimit": null,
+    "organizationId": 1,
+    "taxable": false,
+    "taxId": null,
+    "amountExemptFromTaxation": null,
+    "setupFee": null,
+    "earlyTerminationFee": null,
+    "minimumContractLengthMonths": null,
+    "periods": [
+      {
+        "id": 151,
+        "price": 3999.0,
+        "period": 1,
+        "enabled": true
+      },
+      {
+        "id": 152,
+        "price": null,
+        "period": 2,
+        "enabled": false
+      },
+      {
+        "id": 153,
+        "price": null,
+        "period": 3,
+        "enabled": false
+      },
+      {
+        "id": 154,
+        "price": null,
+        "period": 6,
+        "enabled": false
+      },
+      {
+        "id": 155,
+        "price": null,
+        "period": 12,
+        "enabled": false
+      },
+      {
+        "id": 156,
+        "price": null,
+        "period": 24,
+        "enabled": false
+      }
+    ],
+    "public": false,
+    "prepaid": false,
+    "prepaidConfiguration": {
+      "pricePerDay": null
+    },
+    "servicePlanGroups": [],
+    "defaultServicePlanGroupId": null,
+    "uploadSpeedLimited": null,
+    "downloadSpeedLimited": null,
+    "archived": false
+  },
+  {
+    "id": 27,
+    "servicePlanType": "Internet",
+    "name": "25. DIA 300 MBPS",
+    "invoiceLabel": null,
+    "downloadBurst": null,
+    "uploadBurst": null,
+    "downloadSpeed": 300.0,
+    "uploadSpeed": 300.0,
+    "aggregation": null,
+    "dataUsageLimit": null,
+    "organizationId": 1,
+    "taxable": false,
+    "taxId": null,
+    "amountExemptFromTaxation": null,
+    "setupFee": 15000.0,
+    "earlyTerminationFee": null,
+    "minimumContractLengthMonths": 12,
+    "periods": [
+      {
+        "id": 157,
+        "price": 67200.0,
+        "period": 1,
+        "enabled": true
+      },
+      {
+        "id": 158,
+        "price": null,
+        "period": 2,
+        "enabled": false
+      },
+      {
+        "id": 159,
+        "price": null,
+        "period": 3,
+        "enabled": false
+      },
+      {
+        "id": 160,
+        "price": null,
+        "period": 6,
+        "enabled": false
+      },
+      {
+        "id": 161,
+        "price": null,
+        "period": 12,
+        "enabled": false
+      },
+      {
+        "id": 162,
+        "price": null,
+        "period": 24,
+        "enabled": false
+      }
+    ],
+    "public": false,
+    "prepaid": false,
+    "prepaidConfiguration": {
+      "pricePerDay": null
+    },
+    "servicePlanGroups": [],
+    "defaultServicePlanGroupId": null,
+    "uploadSpeedLimited": null,
+    "downloadSpeedLimited": null,
+    "archived": false
+  },
+  {
+    "id": 28,
+    "servicePlanType": "Internet",
+    "name": "26. DIA 300 MBPS",
+    "invoiceLabel": null,
+    "downloadBurst": null,
+    "uploadBurst": null,
+    "downloadSpeed": 300.0,
+    "uploadSpeed": 300.0,
+    "aggregation": null,
+    "dataUsageLimit": null,
+    "organizationId": 1,
+    "taxable": false,
+    "taxId": null,
+    "amountExemptFromTaxation": null,
+    "setupFee": null,
+    "earlyTerminationFee": null,
+    "minimumContractLengthMonths": null,
+    "periods": [
+      {
+        "id": 163,
+        "price": 67200.0,
+        "period": 1,
+        "enabled": true
+      },
+      {
+        "id": 164,
+        "price": null,
+        "period": 2,
+        "enabled": false
+      },
+      {
+        "id": 165,
+        "price": null,
+        "period": 3,
+        "enabled": false
+      },
+      {
+        "id": 166,
+        "price": null,
+        "period": 6,
+        "enabled": false
+      },
+      {
+        "id": 167,
+        "price": null,
+        "period": 12,
+        "enabled": false
+      },
+      {
+        "id": 168,
+        "price": null,
+        "period": 24,
+        "enabled": false
+      }
+    ],
+    "public": false,
+    "prepaid": false,
+    "prepaidConfiguration": {
+      "pricePerDay": null
+    },
+    "servicePlanGroups": [],
+    "defaultServicePlanGroupId": null,
+    "uploadSpeedLimited": null,
+    "downloadSpeedLimited": null,
+    "archived": false
+  },
+  {
+    "id": 29,
+    "servicePlanType": "Internet",
+    "name": "27. SOLO ADD 500 1ST BILL",
+    "invoiceLabel": null,
+    "downloadBurst": null,
+    "uploadBurst": null,
+    "downloadSpeed": 35.0,
+    "uploadSpeed": 35.0,
+    "aggregation": null,
+    "dataUsageLimit": null,
+    "organizationId": 1,
+    "taxable": false,
+    "taxId": null,
+    "amountExemptFromTaxation": null,
+    "setupFee": null,
+    "earlyTerminationFee": null,
+    "minimumContractLengthMonths": null,
+    "periods": [
+      {
+        "id": 169,
+        "price": 1099.0,
+        "period": 1,
+        "enabled": true
+      },
+      {
+        "id": 170,
+        "price": null,
+        "period": 2,
+        "enabled": false
+      },
+      {
+        "id": 171,
+        "price": null,
+        "period": 3,
+        "enabled": false
+      },
+      {
+        "id": 172,
+        "price": null,
+        "period": 6,
+        "enabled": false
+      },
+      {
+        "id": 173,
+        "price": null,
+        "period": 12,
+        "enabled": false
+      },
+      {
+        "id": 174,
+        "price": null,
+        "period": 24,
+        "enabled": false
+      }
+    ],
+    "public": false,
+    "prepaid": false,
+    "prepaidConfiguration": {
+      "pricePerDay": null
+    },
+    "servicePlanGroups": [],
+    "defaultServicePlanGroupId": null,
+    "uploadSpeedLimited": null,
+    "downloadSpeedLimited": null,
+    "archived": false
+  },
+  {
+    "id": 30,
+    "servicePlanType": "Internet",
+    "name": "28, BRONZE ADD 500 IST BILL",
+    "invoiceLabel": null,
+    "downloadBurst": null,
+    "uploadBurst": null,
+    "downloadSpeed": 50.0,
+    "uploadSpeed": 50.0,
+    "aggregation": null,
+    "dataUsageLimit": null,
+    "organizationId": 1,
+    "taxable": false,
+    "taxId": null,
+    "amountExemptFromTaxation": null,
+    "setupFee": null,
+    "earlyTerminationFee": null,
+    "minimumContractLengthMonths": null,
+    "periods": [
+      {
+        "id": 175,
+        "price": 1299.0,
+        "period": 1,
+        "enabled": true
+      },
+      {
+        "id": 176,
+        "price": null,
+        "period": 2,
+        "enabled": false
+      },
+      {
+        "id": 177,
+        "price": null,
+        "period": 3,
+        "enabled": false
+      },
+      {
+        "id": 178,
+        "price": null,
+        "period": 6,
+        "enabled": false
+      },
+      {
+        "id": 179,
+        "price": null,
+        "period": 12,
+        "enabled": false
+      },
+      {
+        "id": 180,
+        "price": null,
+        "period": 24,
+        "enabled": false
+      }
+    ],
+    "public": false,
+    "prepaid": false,
+    "prepaidConfiguration": {
+      "pricePerDay": null
+    },
+    "servicePlanGroups": [],
+    "defaultServicePlanGroupId": null,
+    "uploadSpeedLimited": null,
+    "downloadSpeedLimited": null,
+    "archived": false
+  },
+  {
+    "id": 31,
+    "servicePlanType": "Internet",
+    "name": "29, SILVER ADD 500 IST BILL",
+    "invoiceLabel": null,
+    "downloadBurst": null,
+    "uploadBurst": null,
+    "downloadSpeed": 100.0,
+    "uploadSpeed": 100.0,
+    "aggregation": null,
+    "dataUsageLimit": null,
+    "organizationId": 1,
+    "taxable": false,
+    "taxId": null,
+    "amountExemptFromTaxation": null,
+    "setupFee": null,
+    "earlyTerminationFee": null,
+    "minimumContractLengthMonths": null,
+    "periods": [
+      {
+        "id": 181,
+        "price": 1499.0,
+        "period": 1,
+        "enabled": true
+      },
+      {
+        "id": 182,
+        "price": null,
+        "period": 2,
+        "enabled": false
+      },
+      {
+        "id": 183,
+        "price": null,
+        "period": 3,
+        "enabled": false
+      },
+      {
+        "id": 184,
+        "price": null,
+        "period": 6,
+        "enabled": false
+      },
+      {
+        "id": 185,
+        "price": null,
+        "period": 12,
+        "enabled": false
+      },
+      {
+        "id": 186,
+        "price": null,
+        "period": 24,
+        "enabled": false
+      }
+    ],
+    "public": false,
+    "prepaid": false,
+    "prepaidConfiguration": {
+      "pricePerDay": null
+    },
+    "servicePlanGroups": [],
+    "defaultServicePlanGroupId": null,
+    "uploadSpeedLimited": null,
+    "downloadSpeedLimited": null,
+    "archived": false
+  },
+  {
+    "id": 32,
+    "servicePlanType": "Internet",
+    "name": "30. GOLD ADD 500 1ST BILL",
+    "invoiceLabel": null,
+    "downloadBurst": null,
+    "uploadBurst": null,
+    "downloadSpeed": 150.0,
+    "uploadSpeed": 150.0,
+    "aggregation": null,
+    "dataUsageLimit": null,
+    "organizationId": 1,
+    "taxable": false,
+    "taxId": null,
+    "amountExemptFromTaxation": null,
+    "setupFee": null,
+    "earlyTerminationFee": null,
+    "minimumContractLengthMonths": null,
+    "periods": [
+      {
+        "id": 187,
+        "price": 1700.0,
+        "period": 1,
+        "enabled": true
+      },
+      {
+        "id": 188,
+        "price": null,
+        "period": 2,
+        "enabled": false
+      },
+      {
+        "id": 189,
+        "price": null,
+        "period": 3,
+        "enabled": false
+      },
+      {
+        "id": 190,
+        "price": null,
+        "period": 6,
+        "enabled": false
+      },
+      {
+        "id": 191,
+        "price": null,
+        "period": 12,
+        "enabled": false
+      },
+      {
+        "id": 192,
+        "price": null,
+        "period": 24,
+        "enabled": false
+      }
+    ],
+    "public": false,
+    "prepaid": false,
+    "prepaidConfiguration": {
+      "pricePerDay": null
+    },
+    "servicePlanGroups": [],
+    "defaultServicePlanGroupId": null,
+    "uploadSpeedLimited": null,
+    "downloadSpeedLimited": null,
+    "archived": false
+  },
+  {
+    "id": 33,
+    "servicePlanType": "Internet",
+    "name": "31. PLATINUM ADD 500 1ST BILL",
+    "invoiceLabel": null,
+    "downloadBurst": null,
+    "uploadBurst": null,
+    "downloadSpeed": 200.0,
+    "uploadSpeed": 200.0,
+    "aggregation": null,
+    "dataUsageLimit": null,
+    "organizationId": 1,
+    "taxable": false,
+    "taxId": null,
+    "amountExemptFromTaxation": null,
+    "setupFee": null,
+    "earlyTerminationFee": null,
+    "minimumContractLengthMonths": null,
+    "periods": [
+      {
+        "id": 193,
+        "price": 1900.0,
+        "period": 1,
+        "enabled": true
+      },
+      {
+        "id": 194,
+        "price": null,
+        "period": 2,
+        "enabled": false
+      },
+      {
+        "id": 195,
+        "price": null,
+        "period": 3,
+        "enabled": false
+      },
+      {
+        "id": 196,
+        "price": null,
+        "period": 6,
+        "enabled": false
+      },
+      {
+        "id": 197,
+        "price": null,
+        "period": 12,
+        "enabled": false
+      },
+      {
+        "id": 198,
+        "price": null,
+        "period": 24,
+        "enabled": false
+      }
+    ],
+    "public": false,
+    "prepaid": false,
+    "prepaidConfiguration": {
+      "pricePerDay": null
+    },
+    "servicePlanGroups": [],
+    "defaultServicePlanGroupId": null,
+    "uploadSpeedLimited": null,
+    "downloadSpeedLimited": null,
+    "archived": false
+  },
+  {
+    "id": 34,
+    "servicePlanType": "Internet",
+    "name": "Imperial Bliz",
+    "invoiceLabel": null,
+    "downloadBurst": null,
+    "uploadBurst": null,
+    "downloadSpeed": 500.0,
+    "uploadSpeed": 500.0,
+    "aggregation": null,
+    "dataUsageLimit": null,
+    "organizationId": 1,
+    "taxable": false,
+    "taxId": null,
+    "amountExemptFromTaxation": null,
+    "setupFee": null,
+    "earlyTerminationFee": null,
+    "minimumContractLengthMonths": null,
+    "periods": [
+      {
+        "id": 199,
+        "price": 2500.0,
+        "period": 1,
+        "enabled": true
+      },
+      {
+        "id": 200,
+        "price": null,
+        "period": 2,
+        "enabled": false
+      },
+      {
+        "id": 201,
+        "price": null,
+        "period": 3,
+        "enabled": false
+      },
+      {
+        "id": 202,
+        "price": null,
+        "period": 6,
+        "enabled": false
+      },
+      {
+        "id": 203,
+        "price": null,
+        "period": 12,
+        "enabled": false
+      },
+      {
+        "id": 204,
+        "price": null,
+        "period": 24,
+        "enabled": false
+      }
+    ],
+    "public": false,
+    "prepaid": false,
+    "prepaidConfiguration": {
+      "pricePerDay": null
+    },
+    "servicePlanGroups": [],
+    "defaultServicePlanGroupId": null,
+    "uploadSpeedLimited": null,
+    "downloadSpeedLimited": null,
+    "archived": false
+  },
+  {
+    "id": 36,
+    "servicePlanType": "Internet",
+    "name": "IMPERIALBIZ500",
+    "invoiceLabel": null,
+    "downloadBurst": null,
+    "uploadBurst": null,
+    "downloadSpeed": 500.0,
+    "uploadSpeed": 500.0,
+    "aggregation": null,
+    "dataUsageLimit": null,
+    "organizationId": 1,
+    "taxable": false,
+    "taxId": null,
+    "amountExemptFromTaxation": null,
+    "setupFee": null,
+    "earlyTerminationFee": null,
+    "minimumContractLengthMonths": null,
+    "periods": [
+      {
+        "id": 206,
+        "price": 3999.0,
+        "period": 1,
+        "enabled": true
+      },
+      {
+        "id": 207,
+        "price": null,
+        "period": 2,
+        "enabled": false
+      },
+      {
+        "id": 208,
+        "price": null,
+        "period": 3,
+        "enabled": false
+      },
+      {
+        "id": 209,
+        "price": null,
+        "period": 6,
+        "enabled": false
+      },
+      {
+        "id": 210,
+        "price": null,
+        "period": 12,
+        "enabled": false
+      },
+      {
+        "id": 211,
+        "price": null,
+        "period": 24,
+        "enabled": false
+      }
+    ],
+    "public": false,
+    "prepaid": false,
+    "prepaidConfiguration": {
+      "pricePerDay": null
+    },
+    "servicePlanGroups": [],
+    "defaultServicePlanGroupId": null,
+    "uploadSpeedLimited": null,
+    "downloadSpeedLimited": null,
+    "archived": false
+  },
+  {
+    "id": 39,
+    "servicePlanType": "Internet",
+    "name": "diamond 1600 add 500 to 1st bill",
+    "invoiceLabel": null,
+    "downloadBurst": null,
+    "uploadBurst": null,
+    "downloadSpeed": null,
+    "uploadSpeed": null,
+    "aggregation": null,
+    "dataUsageLimit": null,
+    "organizationId": 1,
+    "taxable": false,
+    "taxId": null,
+    "amountExemptFromTaxation": null,
+    "setupFee": null,
+    "earlyTerminationFee": null,
+    "minimumContractLengthMonths": null,
+    "periods": [
+      {
+        "id": 224,
+        "price": 2100.0,
+        "period": 1,
+        "enabled": true
+      },
+      {
+        "id": 225,
+        "price": null,
+        "period": 2,
+        "enabled": false
+      },
+      {
+        "id": 226,
+        "price": null,
+        "period": 3,
+        "enabled": false
+      },
+      {
+        "id": 227,
+        "price": null,
+        "period": 6,
+        "enabled": false
+      },
+      {
+        "id": 228,
+        "price": null,
+        "period": 12,
+        "enabled": false
+      },
+      {
+        "id": 229,
+        "price": null,
+        "period": 24,
+        "enabled": false
+      }
+    ],
+    "public": false,
+    "prepaid": false,
+    "prepaidConfiguration": {
+      "pricePerDay": null
+    },
+    "servicePlanGroups": [],
+    "defaultServicePlanGroupId": null,
+    "uploadSpeedLimited": null,
+    "downloadSpeedLimited": null,
+    "archived": false
+  },
+  {
+    "id": 40,
+    "servicePlanType": "Internet",
+    "name": "Test",
+    "invoiceLabel": null,
+    "downloadBurst": null,
+    "uploadBurst": null,
+    "downloadSpeed": 99.0,
+    "uploadSpeed": 99.0,
+    "aggregation": null,
+    "dataUsageLimit": null,
+    "organizationId": 3,
+    "taxable": false,
+    "taxId": null,
+    "amountExemptFromTaxation": null,
+    "setupFee": null,
+    "earlyTerminationFee": null,
+    "minimumContractLengthMonths": null,
+    "periods": [
+      {
+        "id": 230,
+        "price": 999.0,
+        "period": 1,
+        "enabled": true
+      },
+      {
+        "id": 231,
+        "price": null,
+        "period": 2,
+        "enabled": false
+      },
+      {
+        "id": 232,
+        "price": null,
+        "period": 3,
+        "enabled": false
+      },
+      {
+        "id": 233,
+        "price": null,
+        "period": 6,
+        "enabled": false
+      },
+      {
+        "id": 234,
+        "price": null,
+        "period": 12,
+        "enabled": false
+      },
+      {
+        "id": 235,
+        "price": null,
+        "period": 24,
+        "enabled": false
+      }
+    ],
+    "public": false,
+    "prepaid": false,
+    "prepaidConfiguration": {
+      "pricePerDay": null
+    },
+    "servicePlanGroups": [],
+    "defaultServicePlanGroupId": null,
+    "uploadSpeedLimited": null,
+    "downloadSpeedLimited": null,
+    "archived": false
+  },
+  {
+    "id": 41,
+    "servicePlanType": "Internet",
+    "name": "DIA BGP TIM",
+    "invoiceLabel": null,
+    "downloadBurst": null,
+    "uploadBurst": null,
+    "downloadSpeed": 500.0,
+    "uploadSpeed": 500.0,
+    "aggregation": null,
+    "dataUsageLimit": null,
+    "organizationId": 1,
+    "taxable": false,
+    "taxId": null,
+    "amountExemptFromTaxation": null,
+    "setupFee": null,
+    "earlyTerminationFee": null,
+    "minimumContractLengthMonths": null,
+    "periods": [
+      {
+        "id": 236,
+        "price": 20000.0,
+        "period": 1,
+        "enabled": true
+      },
+      {
+        "id": 237,
+        "price": null,
+        "period": 2,
+        "enabled": false
+      },
+      {
+        "id": 238,
+        "price": null,
+        "period": 3,
+        "enabled": false
+      },
+      {
+        "id": 239,
+        "price": null,
+        "period": 6,
+        "enabled": false
+      },
+      {
+        "id": 240,
+        "price": null,
+        "period": 12,
+        "enabled": false
+      },
+      {
+        "id": 241,
+        "price": null,
+        "period": 24,
+        "enabled": false
+      }
+    ],
+    "public": false,
+    "prepaid": false,
+    "prepaidConfiguration": {
+      "pricePerDay": null
+    },
+    "servicePlanGroups": [],
+    "defaultServicePlanGroupId": null,
+    "uploadSpeedLimited": null,
+    "downloadSpeedLimited": null,
+    "archived": false
+  },
+  {
+    "id": 42,
+    "servicePlanType": "Internet",
+    "name": "BUSINESS PLAN 500",
+    "invoiceLabel": null,
+    "downloadBurst": null,
+    "uploadBurst": null,
+    "downloadSpeed": 500.0,
+    "uploadSpeed": 500.0,
+    "aggregation": null,
+    "dataUsageLimit": null,
+    "organizationId": 1,
+    "taxable": false,
+    "taxId": null,
+    "amountExemptFromTaxation": null,
+    "setupFee": null,
+    "earlyTerminationFee": null,
+    "minimumContractLengthMonths": null,
+    "periods": [
+      {
+        "id": 242,
+        "price": 3999.0,
+        "period": 1,
+        "enabled": true
+      },
+      {
+        "id": 243,
+        "price": null,
+        "period": 2,
+        "enabled": false
+      },
+      {
+        "id": 244,
+        "price": null,
+        "period": 3,
+        "enabled": false
+      },
+      {
+        "id": 245,
+        "price": null,
+        "period": 6,
+        "enabled": false
+      },
+      {
+        "id": 246,
+        "price": null,
+        "period": 12,
+        "enabled": false
+      },
+      {
+        "id": 247,
+        "price": null,
+        "period": 24,
+        "enabled": false
+      }
+    ],
+    "public": false,
+    "prepaid": false,
+    "prepaidConfiguration": {
+      "pricePerDay": null
+    },
+    "servicePlanGroups": [],
+    "defaultServicePlanGroupId": null,
+    "uploadSpeedLimited": null,
+    "downloadSpeedLimited": null,
+    "archived": false
+  },
+  {
+    "id": 43,
+    "servicePlanType": "Internet",
+    "name": "DIA BGP TIM",
+    "invoiceLabel": null,
+    "downloadBurst": null,
+    "uploadBurst": null,
+    "downloadSpeed": null,
+    "uploadSpeed": null,
+    "aggregation": null,
+    "dataUsageLimit": null,
+    "organizationId": 1,
+    "taxable": false,
+    "taxId": null,
+    "amountExemptFromTaxation": null,
+    "setupFee": null,
+    "earlyTerminationFee": null,
+    "minimumContractLengthMonths": null,
+    "periods": [
+      {
+        "id": 248,
+        "price": 80000.0,
+        "period": 1,
+        "enabled": true
+      },
+      {
+        "id": 249,
+        "price": null,
+        "period": 2,
+        "enabled": false
+      },
+      {
+        "id": 250,
+        "price": null,
+        "period": 3,
+        "enabled": false
+      },
+      {
+        "id": 251,
+        "price": null,
+        "period": 6,
+        "enabled": false
+      },
+      {
+        "id": 252,
+        "price": null,
+        "period": 12,
+        "enabled": false
+      },
+      {
+        "id": 253,
+        "price": null,
+        "period": 24,
+        "enabled": false
+      }
+    ],
+    "public": false,
+    "prepaid": false,
+    "prepaidConfiguration": {
+      "pricePerDay": null
+    },
+    "servicePlanGroups": [],
+    "defaultServicePlanGroupId": null,
+    "uploadSpeedLimited": null,
+    "downloadSpeedLimited": null,
+    "archived": false
+  },
+  {
+    "id": 44,
+    "servicePlanType": "Internet",
+    "name": "DIA BGP TIM",
+    "invoiceLabel": null,
+    "downloadBurst": null,
+    "uploadBurst": null,
+    "downloadSpeed": null,
+    "uploadSpeed": null,
+    "aggregation": null,
+    "dataUsageLimit": null,
+    "organizationId": 1,
+    "taxable": false,
+    "taxId": null,
+    "amountExemptFromTaxation": null,
+    "setupFee": null,
+    "earlyTerminationFee": null,
+    "minimumContractLengthMonths": null,
+    "periods": [
+      {
+        "id": 254,
+        "price": 100000.0,
+        "period": 1,
+        "enabled": true
+      },
+      {
+        "id": 255,
+        "price": null,
+        "period": 2,
+        "enabled": false
+      },
+      {
+        "id": 256,
+        "price": null,
+        "period": 3,
+        "enabled": false
+      },
+      {
+        "id": 257,
+        "price": null,
+        "period": 6,
+        "enabled": false
+      },
+      {
+        "id": 258,
+        "price": null,
+        "period": 12,
+        "enabled": false
+      },
+      {
+        "id": 259,
+        "price": null,
+        "period": 24,
+        "enabled": false
+      }
+    ],
+    "public": false,
+    "prepaid": false,
+    "prepaidConfiguration": {
+      "pricePerDay": null
+    },
+    "servicePlanGroups": [],
+    "defaultServicePlanGroupId": null,
+    "uploadSpeedLimited": null,
+    "downloadSpeedLimited": null,
+    "archived": false
+  },
+  {
+    "id": 45,
+    "servicePlanType": "Internet",
+    "name": "DIA BGP TIM",
+    "invoiceLabel": null,
+    "downloadBurst": null,
+    "uploadBurst": null,
+    "downloadSpeed": null,
+    "uploadSpeed": null,
+    "aggregation": null,
+    "dataUsageLimit": null,
+    "organizationId": 1,
+    "taxable": false,
+    "taxId": null,
+    "amountExemptFromTaxation": null,
+    "setupFee": null,
+    "earlyTerminationFee": null,
+    "minimumContractLengthMonths": null,
+    "periods": [
+      {
+        "id": 260,
+        "price": 60000.0,
+        "period": 1,
+        "enabled": true
+      },
+      {
+        "id": 261,
+        "price": null,
+        "period": 2,
+        "enabled": false
+      },
+      {
+        "id": 262,
+        "price": null,
+        "period": 3,
+        "enabled": false
+      },
+      {
+        "id": 263,
+        "price": null,
+        "period": 6,
+        "enabled": false
+      },
+      {
+        "id": 264,
+        "price": null,
+        "period": 12,
+        "enabled": false
+      },
+      {
+        "id": 265,
+        "price": null,
+        "period": 24,
+        "enabled": false
+      }
+    ],
+    "public": false,
+    "prepaid": false,
+    "prepaidConfiguration": {
+      "pricePerDay": null
+    },
+    "servicePlanGroups": [],
+    "defaultServicePlanGroupId": null,
+    "uploadSpeedLimited": null,
+    "downloadSpeedLimited": null,
+    "archived": false
+  },
+  {
+    "id": 46,
+    "servicePlanType": "Internet",
+    "name": "DIA BGP TIM",
+    "invoiceLabel": null,
+    "downloadBurst": null,
+    "uploadBurst": null,
+    "downloadSpeed": null,
+    "uploadSpeed": null,
+    "aggregation": null,
+    "dataUsageLimit": null,
+    "organizationId": 1,
+    "taxable": false,
+    "taxId": null,
+    "amountExemptFromTaxation": null,
+    "setupFee": null,
+    "earlyTerminationFee": null,
+    "minimumContractLengthMonths": null,
+    "periods": [
+      {
+        "id": 266,
+        "price": 150000.0,
+        "period": 1,
+        "enabled": true
+      },
+      {
+        "id": 267,
+        "price": null,
+        "period": 2,
+        "enabled": false
+      },
+      {
+        "id": 268,
+        "price": null,
+        "period": 3,
+        "enabled": false
+      },
+      {
+        "id": 269,
+        "price": null,
+        "period": 6,
+        "enabled": false
+      },
+      {
+        "id": 270,
+        "price": null,
+        "period": 12,
+        "enabled": false
+      },
+      {
+        "id": 271,
+        "price": null,
+        "period": 24,
+        "enabled": false
+      }
+    ],
+    "public": false,
+    "prepaid": false,
+    "prepaidConfiguration": {
+      "pricePerDay": null
+    },
+    "servicePlanGroups": [],
+    "defaultServicePlanGroupId": null,
+    "uploadSpeedLimited": null,
+    "downloadSpeedLimited": null,
+    "archived": false
+  },
+  {
+    "id": 47,
+    "servicePlanType": "Internet",
+    "name": "DIA BGP TIM",
+    "invoiceLabel": null,
+    "downloadBurst": null,
+    "uploadBurst": null,
+    "downloadSpeed": null,
+    "uploadSpeed": null,
+    "aggregation": null,
+    "dataUsageLimit": null,
+    "organizationId": 1,
+    "taxable": false,
+    "taxId": null,
+    "amountExemptFromTaxation": null,
+    "setupFee": null,
+    "earlyTerminationFee": null,
+    "minimumContractLengthMonths": null,
+    "periods": [
+      {
+        "id": 272,
+        "price": 30000.0,
+        "period": 1,
+        "enabled": true
+      },
+      {
+        "id": 273,
+        "price": null,
+        "period": 2,
+        "enabled": false
+      },
+      {
+        "id": 274,
+        "price": null,
+        "period": 3,
+        "enabled": false
+      },
+      {
+        "id": 275,
+        "price": null,
+        "period": 6,
+        "enabled": false
+      },
+      {
+        "id": 276,
+        "price": null,
+        "period": 12,
+        "enabled": false
+      },
+      {
+        "id": 277,
+        "price": null,
+        "period": 24,
+        "enabled": false
+      }
+    ],
+    "public": false,
+    "prepaid": false,
+    "prepaidConfiguration": {
+      "pricePerDay": null
+    },
+    "servicePlanGroups": [],
+    "defaultServicePlanGroupId": null,
+    "uploadSpeedLimited": null,
+    "downloadSpeedLimited": null,
+    "archived": false
+  },
+  {
+    "id": 49,
+    "servicePlanType": "Internet",
+    "name": "DIA BGP VM2",
+    "invoiceLabel": null,
+    "downloadBurst": null,
+    "uploadBurst": null,
+    "downloadSpeed": null,
+    "uploadSpeed": null,
+    "aggregation": null,
+    "dataUsageLimit": null,
+    "organizationId": 1,
+    "taxable": false,
+    "taxId": null,
+    "amountExemptFromTaxation": null,
+    "setupFee": null,
+    "earlyTerminationFee": null,
+    "minimumContractLengthMonths": null,
+    "periods": [
+      {
+        "id": 279,
+        "price": 22500.0,
+        "period": 1,
+        "enabled": true
+      },
+      {
+        "id": 280,
+        "price": null,
+        "period": 2,
+        "enabled": false
+      },
+      {
+        "id": 281,
+        "price": null,
+        "period": 3,
+        "enabled": false
+      },
+      {
+        "id": 282,
+        "price": null,
+        "period": 6,
+        "enabled": false
+      },
+      {
+        "id": 283,
+        "price": null,
+        "period": 12,
+        "enabled": false
+      },
+      {
+        "id": 284,
+        "price": null,
+        "period": 24,
+        "enabled": false
+      }
+    ],
+    "public": false,
+    "prepaid": false,
+    "prepaidConfiguration": {
+      "pricePerDay": null
+    },
+    "servicePlanGroups": [],
+    "defaultServicePlanGroupId": null,
+    "uploadSpeedLimited": null,
+    "downloadSpeedLimited": null,
+    "archived": false
+  },
+  {
+    "id": 50,
+    "servicePlanType": "Internet",
+    "name": "DIA BGP TIM",
+    "invoiceLabel": null,
+    "downloadBurst": null,
+    "uploadBurst": null,
+    "downloadSpeed": null,
+    "uploadSpeed": null,
+    "aggregation": null,
+    "dataUsageLimit": null,
+    "organizationId": 1,
+    "taxable": false,
+    "taxId": null,
+    "amountExemptFromTaxation": null,
+    "setupFee": null,
+    "earlyTerminationFee": null,
+    "minimumContractLengthMonths": null,
+    "periods": [
+      {
+        "id": 285,
+        "price": 50000.0,
+        "period": 1,
+        "enabled": true
+      },
+      {
+        "id": 286,
+        "price": null,
+        "period": 2,
+        "enabled": false
+      },
+      {
+        "id": 287,
+        "price": null,
+        "period": 3,
+        "enabled": false
+      },
+      {
+        "id": 288,
+        "price": null,
+        "period": 6,
+        "enabled": false
+      },
+      {
+        "id": 289,
+        "price": null,
+        "period": 12,
+        "enabled": false
+      },
+      {
+        "id": 290,
+        "price": null,
+        "period": 24,
+        "enabled": false
+      }
+    ],
+    "public": false,
+    "prepaid": false,
+    "prepaidConfiguration": {
+      "pricePerDay": null
+    },
+    "servicePlanGroups": [],
+    "defaultServicePlanGroupId": null,
+    "uploadSpeedLimited": null,
+    "downloadSpeedLimited": null,
+    "archived": false
+  },
+  {
+    "id": 51,
+    "servicePlanType": "Internet",
+    "name": "DIA BGP TIM",
+    "invoiceLabel": null,
+    "downloadBurst": null,
+    "uploadBurst": null,
+    "downloadSpeed": null,
+    "uploadSpeed": null,
+    "aggregation": null,
+    "dataUsageLimit": null,
+    "organizationId": 1,
+    "taxable": false,
+    "taxId": null,
+    "amountExemptFromTaxation": null,
+    "setupFee": null,
+    "earlyTerminationFee": null,
+    "minimumContractLengthMonths": null,
+    "periods": [
+      {
+        "id": 291,
+        "price": 70000.0,
+        "period": 1,
+        "enabled": true
+      },
+      {
+        "id": 292,
+        "price": null,
+        "period": 2,
+        "enabled": false
+      },
+      {
+        "id": 293,
+        "price": null,
+        "period": 3,
+        "enabled": false
+      },
+      {
+        "id": 294,
+        "price": null,
+        "period": 6,
+        "enabled": false
+      },
+      {
+        "id": 295,
+        "price": null,
+        "period": 12,
+        "enabled": false
+      },
+      {
+        "id": 296,
+        "price": null,
+        "period": 24,
+        "enabled": false
+      }
+    ],
+    "public": false,
+    "prepaid": false,
+    "prepaidConfiguration": {
+      "pricePerDay": null
+    },
+    "servicePlanGroups": [],
+    "defaultServicePlanGroupId": null,
+    "uploadSpeedLimited": null,
+    "downloadSpeedLimited": null,
+    "archived": false
+  },
+  {
+    "id": 52,
+    "servicePlanType": "Internet",
+    "name": "DIA BGP TIM",
+    "invoiceLabel": null,
+    "downloadBurst": null,
+    "uploadBurst": null,
+    "downloadSpeed": null,
+    "uploadSpeed": null,
+    "aggregation": null,
+    "dataUsageLimit": null,
+    "organizationId": 1,
+    "taxable": false,
+    "taxId": null,
+    "amountExemptFromTaxation": null,
+    "setupFee": null,
+    "earlyTerminationFee": null,
+    "minimumContractLengthMonths": null,
+    "periods": [
+      {
+        "id": 297,
+        "price": 25000.0,
+        "period": 1,
+        "enabled": true
+      },
+      {
+        "id": 298,
+        "price": null,
+        "period": 2,
+        "enabled": false
+      },
+      {
+        "id": 299,
+        "price": null,
+        "period": 3,
+        "enabled": false
+      },
+      {
+        "id": 300,
+        "price": null,
+        "period": 6,
+        "enabled": false
+      },
+      {
+        "id": 301,
+        "price": null,
+        "period": 12,
+        "enabled": false
+      },
+      {
+        "id": 302,
+        "price": null,
+        "period": 24,
+        "enabled": false
+      }
+    ],
+    "public": false,
+    "prepaid": false,
+    "prepaidConfiguration": {
+      "pricePerDay": null
+    },
+    "servicePlanGroups": [],
+    "defaultServicePlanGroupId": null,
+    "uploadSpeedLimited": null,
+    "downloadSpeedLimited": null,
+    "archived": false
+  },
+  {
+    "id": 53,
+    "servicePlanType": "Internet",
+    "name": "DIA BGP VM2",
+    "invoiceLabel": null,
+    "downloadBurst": null,
+    "uploadBurst": null,
+    "downloadSpeed": null,
+    "uploadSpeed": null,
+    "aggregation": null,
+    "dataUsageLimit": null,
+    "organizationId": 1,
+    "taxable": false,
+    "taxId": null,
+    "amountExemptFromTaxation": null,
+    "setupFee": null,
+    "earlyTerminationFee": null,
+    "minimumContractLengthMonths": null,
+    "periods": [
+      {
+        "id": 303,
+        "price": 45000.0,
+        "period": 1,
+        "enabled": true
+      },
+      {
+        "id": 304,
+        "price": null,
+        "period": 2,
+        "enabled": false
+      },
+      {
+        "id": 305,
+        "price": null,
+        "period": 3,
+        "enabled": false
+      },
+      {
+        "id": 306,
+        "price": null,
+        "period": 6,
+        "enabled": false
+      },
+      {
+        "id": 307,
+        "price": null,
+        "period": 12,
+        "enabled": false
+      },
+      {
+        "id": 308,
+        "price": null,
+        "period": 24,
+        "enabled": false
+      }
+    ],
+    "public": false,
+    "prepaid": false,
+    "prepaidConfiguration": {
+      "pricePerDay": null
+    },
+    "servicePlanGroups": [],
+    "defaultServicePlanGroupId": null,
+    "uploadSpeedLimited": null,
+    "downloadSpeedLimited": null,
+    "archived": false
+  },
+  {
+    "id": 54,
+    "servicePlanType": "Internet",
+    "name": "DIA BGP VM2",
+    "invoiceLabel": null,
+    "downloadBurst": null,
+    "uploadBurst": null,
+    "downloadSpeed": null,
+    "uploadSpeed": null,
+    "aggregation": null,
+    "dataUsageLimit": null,
+    "organizationId": 1,
+    "taxable": false,
+    "taxId": null,
+    "amountExemptFromTaxation": null,
+    "setupFee": null,
+    "earlyTerminationFee": null,
+    "minimumContractLengthMonths": null,
+    "periods": [
+      {
+        "id": 309,
+        "price": 67000.0,
+        "period": 1,
+        "enabled": true
+      },
+      {
+        "id": 310,
+        "price": null,
+        "period": 2,
+        "enabled": false
+      },
+      {
+        "id": 311,
+        "price": null,
+        "period": 3,
+        "enabled": false
+      },
+      {
+        "id": 312,
+        "price": null,
+        "period": 6,
+        "enabled": false
+      },
+      {
+        "id": 313,
+        "price": null,
+        "period": 12,
+        "enabled": false
+      },
+      {
+        "id": 314,
+        "price": null,
+        "period": 24,
+        "enabled": false
+      }
+    ],
+    "public": false,
+    "prepaid": false,
+    "prepaidConfiguration": {
+      "pricePerDay": null
+    },
+    "servicePlanGroups": [],
+    "defaultServicePlanGroupId": null,
+    "uploadSpeedLimited": null,
+    "downloadSpeedLimited": null,
+    "archived": false
+  },
+  {
+    "id": 55,
+    "servicePlanType": "Internet",
+    "name": "DIA BGP VM2",
+    "invoiceLabel": null,
+    "downloadBurst": null,
+    "uploadBurst": null,
+    "downloadSpeed": null,
+    "uploadSpeed": null,
+    "aggregation": null,
+    "dataUsageLimit": null,
+    "organizationId": 1,
+    "taxable": false,
+    "taxId": null,
+    "amountExemptFromTaxation": null,
+    "setupFee": null,
+    "earlyTerminationFee": null,
+    "minimumContractLengthMonths": null,
+    "periods": [
+      {
+        "id": 315,
+        "price": 100000.0,
+        "period": 1,
+        "enabled": true
+      },
+      {
+        "id": 316,
+        "price": null,
+        "period": 2,
+        "enabled": false
+      },
+      {
+        "id": 317,
+        "price": null,
+        "period": 3,
+        "enabled": false
+      },
+      {
+        "id": 318,
+        "price": null,
+        "period": 6,
+        "enabled": false
+      },
+      {
+        "id": 319,
+        "price": null,
+        "period": 12,
+        "enabled": false
+      },
+      {
+        "id": 320,
+        "price": null,
+        "period": 24,
+        "enabled": false
+      }
+    ],
+    "public": false,
+    "prepaid": false,
+    "prepaidConfiguration": {
+      "pricePerDay": null
+    },
+    "servicePlanGroups": [],
+    "defaultServicePlanGroupId": null,
+    "uploadSpeedLimited": null,
+    "downloadSpeedLimited": null,
+    "archived": false
+  },
+  {
+    "id": 56,
+    "servicePlanType": "Internet",
+    "name": "DIA BGP VM2",
+    "invoiceLabel": null,
+    "downloadBurst": null,
+    "uploadBurst": null,
+    "downloadSpeed": null,
+    "uploadSpeed": null,
+    "aggregation": null,
+    "dataUsageLimit": null,
+    "organizationId": 1,
+    "taxable": false,
+    "taxId": null,
+    "amountExemptFromTaxation": null,
+    "setupFee": null,
+    "earlyTerminationFee": null,
+    "minimumContractLengthMonths": null,
+    "periods": [
+      {
+        "id": 321,
+        "price": 11250.0,
+        "period": 1,
+        "enabled": true
+      },
+      {
+        "id": 322,
+        "price": null,
+        "period": 2,
+        "enabled": false
+      },
+      {
+        "id": 323,
+        "price": null,
+        "period": 3,
+        "enabled": false
+      },
+      {
+        "id": 324,
+        "price": null,
+        "period": 6,
+        "enabled": false
+      },
+      {
+        "id": 325,
+        "price": null,
+        "period": 12,
+        "enabled": false
+      },
+      {
+        "id": 326,
+        "price": null,
+        "period": 24,
+        "enabled": false
+      }
+    ],
+    "public": false,
+    "prepaid": false,
+    "prepaidConfiguration": {
+      "pricePerDay": null
+    },
+    "servicePlanGroups": [],
+    "defaultServicePlanGroupId": null,
+    "uploadSpeedLimited": null,
+    "downloadSpeedLimited": null,
+    "archived": false
+  },
+  {
+    "id": 57,
+    "servicePlanType": "Internet",
+    "name": "DIA BGP VM2",
+    "invoiceLabel": null,
+    "downloadBurst": null,
+    "uploadBurst": null,
+    "downloadSpeed": null,
+    "uploadSpeed": null,
+    "aggregation": null,
+    "dataUsageLimit": null,
+    "organizationId": 1,
+    "taxable": false,
+    "taxId": null,
+    "amountExemptFromTaxation": null,
+    "setupFee": null,
+    "earlyTerminationFee": null,
+    "minimumContractLengthMonths": null,
+    "periods": [
+      {
+        "id": 327,
+        "price": 60000.0,
+        "period": 1,
+        "enabled": true
+      },
+      {
+        "id": 328,
+        "price": null,
+        "period": 2,
+        "enabled": false
+      },
+      {
+        "id": 329,
+        "price": null,
+        "period": 3,
+        "enabled": false
+      },
+      {
+        "id": 330,
+        "price": null,
+        "period": 6,
+        "enabled": false
+      },
+      {
+        "id": 331,
+        "price": null,
+        "period": 12,
+        "enabled": false
+      },
+      {
+        "id": 332,
+        "price": null,
+        "period": 24,
+        "enabled": false
+      }
+    ],
+    "public": false,
+    "prepaid": false,
+    "prepaidConfiguration": {
+      "pricePerDay": null
+    },
+    "servicePlanGroups": [],
+    "defaultServicePlanGroupId": null,
+    "uploadSpeedLimited": null,
+    "downloadSpeedLimited": null,
+    "archived": false
+  },
+  {
+    "id": 58,
+    "servicePlanType": "Internet",
+    "name": "LEASED LINE 4GB",
+    "invoiceLabel": null,
+    "downloadBurst": null,
+    "uploadBurst": null,
+    "downloadSpeed": 4000.0,
+    "uploadSpeed": 4000.0,
+    "aggregation": null,
+    "dataUsageLimit": null,
+    "organizationId": 1,
+    "taxable": false,
+    "taxId": null,
+    "amountExemptFromTaxation": null,
+    "setupFee": null,
+    "earlyTerminationFee": null,
+    "minimumContractLengthMonths": null,
+    "periods": [
+      {
+        "id": 333,
+        "price": 220000.0,
+        "period": 1,
+        "enabled": true
+      },
+      {
+        "id": 334,
+        "price": null,
+        "period": 2,
+        "enabled": false
+      },
+      {
+        "id": 335,
+        "price": null,
+        "period": 3,
+        "enabled": false
+      },
+      {
+        "id": 336,
+        "price": null,
+        "period": 6,
+        "enabled": false
+      },
+      {
+        "id": 337,
+        "price": null,
+        "period": 12,
+        "enabled": false
+      },
+      {
+        "id": 338,
+        "price": null,
+        "period": 24,
+        "enabled": false
+      }
+    ],
+    "public": false,
+    "prepaid": false,
+    "prepaidConfiguration": {
+      "pricePerDay": null
+    },
+    "servicePlanGroups": [],
+    "defaultServicePlanGroupId": null,
+    "uploadSpeedLimited": null,
+    "downloadSpeedLimited": null,
+    "archived": false
+  },
+  {
+    "id": 59,
+    "servicePlanType": "Internet",
+    "name": "LEASED LINE 5GB",
+    "invoiceLabel": null,
+    "downloadBurst": null,
+    "uploadBurst": null,
+    "downloadSpeed": 5000.0,
+    "uploadSpeed": 5000.0,
+    "aggregation": null,
+    "dataUsageLimit": null,
+    "organizationId": 1,
+    "taxable": false,
+    "taxId": null,
+    "amountExemptFromTaxation": null,
+    "setupFee": null,
+    "earlyTerminationFee": null,
+    "minimumContractLengthMonths": null,
+    "periods": [
+      {
+        "id": 339,
+        "price": 130000.0,
+        "period": 1,
+        "enabled": true
+      },
+      {
+        "id": 340,
+        "price": null,
+        "period": 2,
+        "enabled": false
+      },
+      {
+        "id": 341,
+        "price": null,
+        "period": 3,
+        "enabled": false
+      },
+      {
+        "id": 342,
+        "price": null,
+        "period": 6,
+        "enabled": false
+      },
+      {
+        "id": 343,
+        "price": null,
+        "period": 12,
+        "enabled": false
+      },
+      {
+        "id": 344,
+        "price": null,
+        "period": 24,
+        "enabled": false
+      }
+    ],
+    "public": false,
+    "prepaid": false,
+    "prepaidConfiguration": {
+      "pricePerDay": null
+    },
+    "servicePlanGroups": [],
+    "defaultServicePlanGroupId": null,
+    "uploadSpeedLimited": null,
+    "downloadSpeedLimited": null,
+    "archived": false
+  },
+  {
+    "id": 60,
+    "servicePlanType": "Internet",
+    "name": "LEASED LINE 5GB",
+    "invoiceLabel": null,
+    "downloadBurst": null,
+    "uploadBurst": null,
+    "downloadSpeed": 5000.0,
+    "uploadSpeed": 5000.0,
+    "aggregation": null,
+    "dataUsageLimit": null,
+    "organizationId": 1,
+    "taxable": false,
+    "taxId": null,
+    "amountExemptFromTaxation": null,
+    "setupFee": null,
+    "earlyTerminationFee": null,
+    "minimumContractLengthMonths": null,
+    "periods": [
+      {
+        "id": 345,
+        "price": 120000.0,
+        "period": 1,
+        "enabled": true
+      },
+      {
+        "id": 346,
+        "price": null,
+        "period": 2,
+        "enabled": false
+      },
+      {
+        "id": 347,
+        "price": null,
+        "period": 3,
+        "enabled": false
+      },
+      {
+        "id": 348,
+        "price": null,
+        "period": 6,
+        "enabled": false
+      },
+      {
+        "id": 349,
+        "price": null,
+        "period": 12,
+        "enabled": false
+      },
+      {
+        "id": 350,
+        "price": null,
+        "period": 24,
+        "enabled": false
+      }
+    ],
+    "public": false,
+    "prepaid": false,
+    "prepaidConfiguration": {
+      "pricePerDay": null
+    },
+    "servicePlanGroups": [],
+    "defaultServicePlanGroupId": null,
+    "uploadSpeedLimited": null,
+    "downloadSpeedLimited": null,
+    "archived": false
+  },
+  {
+    "id": 61,
+    "servicePlanType": "Internet",
+    "name": "LEASED LINE 5GB",
+    "invoiceLabel": null,
+    "downloadBurst": null,
+    "uploadBurst": null,
+    "downloadSpeed": 5000.0,
+    "uploadSpeed": 5000.0,
+    "aggregation": null,
+    "dataUsageLimit": null,
+    "organizationId": 1,
+    "taxable": false,
+    "taxId": null,
+    "amountExemptFromTaxation": null,
+    "setupFee": null,
+    "earlyTerminationFee": null,
+    "minimumContractLengthMonths": null,
+    "periods": [
+      {
+        "id": 351,
+        "price": 150000.0,
+        "period": 1,
+        "enabled": true
+      },
+      {
+        "id": 352,
+        "price": null,
+        "period": 2,
+        "enabled": false
+      },
+      {
+        "id": 353,
+        "price": null,
+        "period": 3,
+        "enabled": false
+      },
+      {
+        "id": 354,
+        "price": null,
+        "period": 6,
+        "enabled": false
+      },
+      {
+        "id": 355,
+        "price": null,
+        "period": 12,
+        "enabled": false
+      },
+      {
+        "id": 356,
+        "price": null,
+        "period": 24,
+        "enabled": false
+      }
+    ],
+    "public": false,
+    "prepaid": false,
+    "prepaidConfiguration": {
+      "pricePerDay": null
+    },
+    "servicePlanGroups": [],
+    "defaultServicePlanGroupId": null,
+    "uploadSpeedLimited": null,
+    "downloadSpeedLimited": null,
+    "archived": false
+  },
+  {
+    "id": 62,
+    "servicePlanType": "Internet",
+    "name": "LEASED LINE 3GB",
+    "invoiceLabel": null,
+    "downloadBurst": null,
+    "uploadBurst": null,
+    "downloadSpeed": 3000.0,
+    "uploadSpeed": 3000.0,
+    "aggregation": null,
+    "dataUsageLimit": null,
+    "organizationId": 1,
+    "taxable": false,
+    "taxId": null,
+    "amountExemptFromTaxation": null,
+    "setupFee": null,
+    "earlyTerminationFee": null,
+    "minimumContractLengthMonths": null,
+    "periods": [
+      {
+        "id": 357,
+        "price": 229500.0,
+        "period": 1,
+        "enabled": true
+      },
+      {
+        "id": 358,
+        "price": null,
+        "period": 2,
+        "enabled": false
+      },
+      {
+        "id": 359,
+        "price": null,
+        "period": 3,
+        "enabled": false
+      },
+      {
+        "id": 360,
+        "price": null,
+        "period": 6,
+        "enabled": false
+      },
+      {
+        "id": 361,
+        "price": null,
+        "period": 12,
+        "enabled": false
+      },
+      {
+        "id": 362,
+        "price": null,
+        "period": 24,
+        "enabled": false
+      }
+    ],
+    "public": false,
+    "prepaid": false,
+    "prepaidConfiguration": {
+      "pricePerDay": null
+    },
+    "servicePlanGroups": [],
+    "defaultServicePlanGroupId": null,
+    "uploadSpeedLimited": null,
+    "downloadSpeedLimited": null,
+    "archived": false
+  },
+  {
+    "id": 63,
+    "servicePlanType": "Internet",
+    "name": "LEASED LINE 2GB",
+    "invoiceLabel": null,
+    "downloadBurst": null,
+    "uploadBurst": null,
+    "downloadSpeed": 2000.0,
+    "uploadSpeed": 2000.0,
+    "aggregation": null,
+    "dataUsageLimit": null,
+    "organizationId": 1,
+    "taxable": false,
+    "taxId": null,
+    "amountExemptFromTaxation": null,
+    "setupFee": null,
+    "earlyTerminationFee": null,
+    "minimumContractLengthMonths": null,
+    "periods": [
+      {
+        "id": 363,
+        "price": 160000.0,
+        "period": 1,
+        "enabled": true
+      },
+      {
+        "id": 364,
+        "price": null,
+        "period": 2,
+        "enabled": false
+      },
+      {
+        "id": 365,
+        "price": null,
+        "period": 3,
+        "enabled": false
+      },
+      {
+        "id": 366,
+        "price": null,
+        "period": 6,
+        "enabled": false
+      },
+      {
+        "id": 367,
+        "price": null,
+        "period": 12,
+        "enabled": false
+      },
+      {
+        "id": 368,
+        "price": null,
+        "period": 24,
+        "enabled": false
+      }
+    ],
+    "public": false,
+    "prepaid": false,
+    "prepaidConfiguration": {
+      "pricePerDay": null
+    },
+    "servicePlanGroups": [],
+    "defaultServicePlanGroupId": null,
+    "uploadSpeedLimited": null,
+    "downloadSpeedLimited": null,
+    "archived": false
+  },
+  {
+    "id": 64,
+    "servicePlanType": "Internet",
+    "name": "LEASED LINE 1GB",
+    "invoiceLabel": null,
+    "downloadBurst": null,
+    "uploadBurst": null,
+    "downloadSpeed": 1000.0,
+    "uploadSpeed": 1000.0,
+    "aggregation": null,
+    "dataUsageLimit": null,
+    "organizationId": 1,
+    "taxable": false,
+    "taxId": null,
+    "amountExemptFromTaxation": null,
+    "setupFee": null,
+    "earlyTerminationFee": null,
+    "minimumContractLengthMonths": null,
+    "periods": [
+      {
+        "id": 369,
+        "price": 95000.0,
+        "period": 1,
+        "enabled": true
+      },
+      {
+        "id": 370,
+        "price": null,
+        "period": 2,
+        "enabled": false
+      },
+      {
+        "id": 371,
+        "price": null,
+        "period": 3,
+        "enabled": false
+      },
+      {
+        "id": 372,
+        "price": null,
+        "period": 6,
+        "enabled": false
+      },
+      {
+        "id": 373,
+        "price": null,
+        "period": 12,
+        "enabled": false
+      },
+      {
+        "id": 374,
+        "price": null,
+        "period": 24,
+        "enabled": false
+      }
+    ],
+    "public": false,
+    "prepaid": false,
+    "prepaidConfiguration": {
+      "pricePerDay": null
+    },
+    "servicePlanGroups": [],
+    "defaultServicePlanGroupId": null,
+    "uploadSpeedLimited": null,
+    "downloadSpeedLimited": null,
+    "archived": false
+  },
+  {
+    "id": 65,
+    "servicePlanType": "Internet",
+    "name": "LEASED LINE 10GB",
+    "invoiceLabel": null,
+    "downloadBurst": null,
+    "uploadBurst": null,
+    "downloadSpeed": 10000.0,
+    "uploadSpeed": 10000.0,
+    "aggregation": null,
+    "dataUsageLimit": null,
+    "organizationId": 1,
+    "taxable": false,
+    "taxId": null,
+    "amountExemptFromTaxation": null,
+    "setupFee": null,
+    "earlyTerminationFee": null,
+    "minimumContractLengthMonths": null,
+    "periods": [
+      {
+        "id": 375,
+        "price": 650000.0,
+        "period": 1,
+        "enabled": true
+      },
+      {
+        "id": 376,
+        "price": null,
+        "period": 2,
+        "enabled": false
+      },
+      {
+        "id": 377,
+        "price": null,
+        "period": 3,
+        "enabled": false
+      },
+      {
+        "id": 378,
+        "price": null,
+        "period": 6,
+        "enabled": false
+      },
+      {
+        "id": 379,
+        "price": null,
+        "period": 12,
+        "enabled": false
+      },
+      {
+        "id": 380,
+        "price": null,
+        "period": 24,
+        "enabled": false
+      }
+    ],
+    "public": false,
+    "prepaid": false,
+    "prepaidConfiguration": {
+      "pricePerDay": null
+    },
+    "servicePlanGroups": [],
+    "defaultServicePlanGroupId": null,
+    "uploadSpeedLimited": null,
+    "downloadSpeedLimited": null,
+    "archived": false
+  },
+  {
+    "id": 66,
+    "servicePlanType": "Internet",
+    "name": "DIA BGP TIM",
+    "invoiceLabel": null,
+    "downloadBurst": null,
+    "uploadBurst": null,
+    "downloadSpeed": null,
+    "uploadSpeed": null,
+    "aggregation": null,
+    "dataUsageLimit": null,
+    "organizationId": 1,
+    "taxable": false,
+    "taxId": null,
+    "amountExemptFromTaxation": null,
+    "setupFee": null,
+    "earlyTerminationFee": null,
+    "minimumContractLengthMonths": null,
+    "periods": [
+      {
+        "id": 381,
+        "price": 60000.0,
+        "period": 1,
+        "enabled": true
+      },
+      {
+        "id": 382,
+        "price": null,
+        "period": 2,
+        "enabled": false
+      },
+      {
+        "id": 383,
+        "price": null,
+        "period": 3,
+        "enabled": false
+      },
+      {
+        "id": 384,
+        "price": null,
+        "period": 6,
+        "enabled": false
+      },
+      {
+        "id": 385,
+        "price": null,
+        "period": 12,
+        "enabled": false
+      },
+      {
+        "id": 386,
+        "price": null,
+        "period": 24,
+        "enabled": false
+      }
+    ],
+    "public": false,
+    "prepaid": false,
+    "prepaidConfiguration": {
+      "pricePerDay": null
+    },
+    "servicePlanGroups": [],
+    "defaultServicePlanGroupId": null,
+    "uploadSpeedLimited": null,
+    "downloadSpeedLimited": null,
+    "archived": false
+  },
+  {
+    "id": 67,
+    "servicePlanType": "Internet",
+    "name": "IMPERIAL SME 2999",
+    "invoiceLabel": null,
+    "downloadBurst": null,
+    "uploadBurst": null,
+    "downloadSpeed": 300.0,
+    "uploadSpeed": 300.0,
+    "aggregation": null,
+    "dataUsageLimit": null,
+    "organizationId": 1,
+    "taxable": false,
+    "taxId": null,
+    "amountExemptFromTaxation": null,
+    "setupFee": null,
+    "earlyTerminationFee": null,
+    "minimumContractLengthMonths": null,
+    "periods": [
+      {
+        "id": 387,
+        "price": 2999.0,
+        "period": 1,
+        "enabled": true
+      },
+      {
+        "id": 388,
+        "price": null,
+        "period": 2,
+        "enabled": false
+      },
+      {
+        "id": 389,
+        "price": null,
+        "period": 3,
+        "enabled": false
+      },
+      {
+        "id": 390,
+        "price": null,
+        "period": 6,
+        "enabled": false
+      },
+      {
+        "id": 391,
+        "price": null,
+        "period": 12,
+        "enabled": false
+      },
+      {
+        "id": 392,
+        "price": null,
+        "period": 24,
+        "enabled": false
+      }
+    ],
+    "public": false,
+    "prepaid": false,
+    "prepaidConfiguration": {
+      "pricePerDay": null
+    },
+    "servicePlanGroups": [],
+    "defaultServicePlanGroupId": null,
+    "uploadSpeedLimited": null,
+    "downloadSpeedLimited": null,
+    "archived": false
+  },
+  {
+    "id": 68,
+    "servicePlanType": "Internet",
+    "name": "IMPERIAL SME 3999",
+    "invoiceLabel": null,
+    "downloadBurst": null,
+    "uploadBurst": null,
+    "downloadSpeed": 500.0,
+    "uploadSpeed": 500.0,
+    "aggregation": null,
+    "dataUsageLimit": null,
+    "organizationId": 1,
+    "taxable": false,
+    "taxId": null,
+    "amountExemptFromTaxation": null,
+    "setupFee": null,
+    "earlyTerminationFee": null,
+    "minimumContractLengthMonths": null,
+    "periods": [
+      {
+        "id": 393,
+        "price": 3999.0,
+        "period": 1,
+        "enabled": true
+      },
+      {
+        "id": 394,
+        "price": null,
+        "period": 2,
+        "enabled": false
+      },
+      {
+        "id": 395,
+        "price": null,
+        "period": 3,
+        "enabled": false
+      },
+      {
+        "id": 396,
+        "price": null,
+        "period": 6,
+        "enabled": false
+      },
+      {
+        "id": 397,
+        "price": null,
+        "period": 12,
+        "enabled": false
+      },
+      {
+        "id": 398,
+        "price": null,
+        "period": 24,
+        "enabled": false
+      }
+    ],
+    "public": false,
+    "prepaid": false,
+    "prepaidConfiguration": {
+      "pricePerDay": null
+    },
+    "servicePlanGroups": [],
+    "defaultServicePlanGroupId": null,
+    "uploadSpeedLimited": null,
+    "downloadSpeedLimited": null,
+    "archived": false
+  },
+  {
+    "id": 69,
+    "servicePlanType": "Internet",
+    "name": "IMPERIAL SME 4999",
+    "invoiceLabel": null,
+    "downloadBurst": null,
+    "uploadBurst": null,
+    "downloadSpeed": 1000.0,
+    "uploadSpeed": 1000.0,
+    "aggregation": null,
+    "dataUsageLimit": null,
+    "organizationId": 1,
+    "taxable": false,
+    "taxId": null,
+    "amountExemptFromTaxation": null,
+    "setupFee": null,
+    "earlyTerminationFee": null,
+    "minimumContractLengthMonths": null,
+    "periods": [
+      {
+        "id": 399,
+        "price": 4999.0,
+        "period": 1,
+        "enabled": true
+      },
+      {
+        "id": 400,
+        "price": null,
+        "period": 2,
+        "enabled": false
+      },
+      {
+        "id": 401,
+        "price": null,
+        "period": 3,
+        "enabled": false
+      },
+      {
+        "id": 402,
+        "price": null,
+        "period": 6,
+        "enabled": false
+      },
+      {
+        "id": 403,
+        "price": null,
+        "period": 12,
+        "enabled": false
+      },
+      {
+        "id": 404,
+        "price": null,
+        "period": 24,
+        "enabled": false
+      }
+    ],
+    "public": false,
+    "prepaid": false,
+    "prepaidConfiguration": {
+      "pricePerDay": null
+    },
+    "servicePlanGroups": [],
+    "defaultServicePlanGroupId": null,
+    "uploadSpeedLimited": null,
+    "downloadSpeedLimited": null,
+    "archived": false
+  },
+  {
+    "id": 70,
+    "servicePlanType": "Internet",
+    "name": "SOLO UNLIMITED 599",
+    "invoiceLabel": null,
+    "downloadBurst": null,
+    "uploadBurst": null,
+    "downloadSpeed": 35.0,
+    "uploadSpeed": 35.0,
+    "aggregation": null,
+    "dataUsageLimit": null,
+    "organizationId": 3,
+    "taxable": false,
+    "taxId": null,
+    "amountExemptFromTaxation": null,
+    "setupFee": null,
+    "earlyTerminationFee": null,
+    "minimumContractLengthMonths": null,
+    "periods": [
+      {
+        "id": 405,
+        "price": 599.0,
+        "period": 1,
+        "enabled": true
+      },
+      {
+        "id": 406,
+        "price": null,
+        "period": 2,
+        "enabled": false
+      },
+      {
+        "id": 407,
+        "price": null,
+        "period": 3,
+        "enabled": false
+      },
+      {
+        "id": 408,
+        "price": null,
+        "period": 6,
+        "enabled": false
+      },
+      {
+        "id": 409,
+        "price": null,
+        "period": 12,
+        "enabled": false
+      },
+      {
+        "id": 410,
+        "price": null,
+        "period": 24,
+        "enabled": false
+      }
+    ],
+    "public": false,
+    "prepaid": false,
+    "prepaidConfiguration": {
+      "pricePerDay": null
+    },
+    "servicePlanGroups": [],
+    "defaultServicePlanGroupId": null,
+    "uploadSpeedLimited": null,
+    "downloadSpeedLimited": null,
+    "archived": false
+  },
+  {
+    "id": 71,
+    "servicePlanType": "Internet",
+    "name": "BRONZE UNLIMITED 799",
+    "invoiceLabel": null,
+    "downloadBurst": null,
+    "uploadBurst": null,
+    "downloadSpeed": 50.0,
+    "uploadSpeed": 50.0,
+    "aggregation": null,
+    "dataUsageLimit": null,
+    "organizationId": 3,
+    "taxable": false,
+    "taxId": null,
+    "amountExemptFromTaxation": null,
+    "setupFee": null,
+    "earlyTerminationFee": null,
+    "minimumContractLengthMonths": null,
+    "periods": [
+      {
+        "id": 411,
+        "price": 799.0,
+        "period": 1,
+        "enabled": true
+      },
+      {
+        "id": 412,
+        "price": null,
+        "period": 2,
+        "enabled": false
+      },
+      {
+        "id": 413,
+        "price": null,
+        "period": 3,
+        "enabled": false
+      },
+      {
+        "id": 414,
+        "price": null,
+        "period": 6,
+        "enabled": false
+      },
+      {
+        "id": 415,
+        "price": null,
+        "period": 12,
+        "enabled": false
+      },
+      {
+        "id": 416,
+        "price": null,
+        "period": 24,
+        "enabled": false
+      }
+    ],
+    "public": false,
+    "prepaid": false,
+    "prepaidConfiguration": {
+      "pricePerDay": null
+    },
+    "servicePlanGroups": [],
+    "defaultServicePlanGroupId": null,
+    "uploadSpeedLimited": null,
+    "downloadSpeedLimited": null,
+    "archived": false
+  },
+  {
+    "id": 72,
+    "servicePlanType": "Internet",
+    "name": "SILVER UNLIMITED 999",
+    "invoiceLabel": null,
+    "downloadBurst": null,
+    "uploadBurst": null,
+    "downloadSpeed": 100.0,
+    "uploadSpeed": 100.0,
+    "aggregation": null,
+    "dataUsageLimit": null,
+    "organizationId": 3,
+    "taxable": false,
+    "taxId": null,
+    "amountExemptFromTaxation": null,
+    "setupFee": null,
+    "earlyTerminationFee": null,
+    "minimumContractLengthMonths": null,
+    "periods": [
+      {
+        "id": 417,
+        "price": 999.0,
+        "period": 1,
+        "enabled": true
+      },
+      {
+        "id": 418,
+        "price": null,
+        "period": 2,
+        "enabled": false
+      },
+      {
+        "id": 419,
+        "price": null,
+        "period": 3,
+        "enabled": false
+      },
+      {
+        "id": 420,
+        "price": null,
+        "period": 6,
+        "enabled": false
+      },
+      {
+        "id": 421,
+        "price": null,
+        "period": 12,
+        "enabled": false
+      },
+      {
+        "id": 422,
+        "price": null,
+        "period": 24,
+        "enabled": false
+      }
+    ],
+    "public": false,
+    "prepaid": false,
+    "prepaidConfiguration": {
+      "pricePerDay": null
+    },
+    "servicePlanGroups": [],
+    "defaultServicePlanGroupId": null,
+    "uploadSpeedLimited": null,
+    "downloadSpeedLimited": null,
+    "archived": false
+  },
+  {
+    "id": 73,
+    "servicePlanType": "Internet",
+    "name": "GOLD UNLIMITED 1200",
+    "invoiceLabel": null,
+    "downloadBurst": null,
+    "uploadBurst": null,
+    "downloadSpeed": 150.0,
+    "uploadSpeed": 150.0,
+    "aggregation": null,
+    "dataUsageLimit": null,
+    "organizationId": 3,
+    "taxable": false,
+    "taxId": null,
+    "amountExemptFromTaxation": null,
+    "setupFee": null,
+    "earlyTerminationFee": null,
+    "minimumContractLengthMonths": null,
+    "periods": [
+      {
+        "id": 423,
+        "price": 1200.0,
+        "period": 1,
+        "enabled": true
+      },
+      {
+        "id": 424,
+        "price": null,
+        "period": 2,
+        "enabled": false
+      },
+      {
+        "id": 425,
+        "price": null,
+        "period": 3,
+        "enabled": false
+      },
+      {
+        "id": 426,
+        "price": null,
+        "period": 6,
+        "enabled": false
+      },
+      {
+        "id": 427,
+        "price": null,
+        "period": 12,
+        "enabled": false
+      },
+      {
+        "id": 428,
+        "price": null,
+        "period": 24,
+        "enabled": false
+      }
+    ],
+    "public": false,
+    "prepaid": false,
+    "prepaidConfiguration": {
+      "pricePerDay": null
+    },
+    "servicePlanGroups": [],
+    "defaultServicePlanGroupId": null,
+    "uploadSpeedLimited": null,
+    "downloadSpeedLimited": null,
+    "archived": false
+  },
+  {
+    "id": 74,
+    "servicePlanType": "Internet",
+    "name": "PLATINUM UNLIMITED 1400",
+    "invoiceLabel": null,
+    "downloadBurst": null,
+    "uploadBurst": null,
+    "downloadSpeed": 200.0,
+    "uploadSpeed": 200.0,
+    "aggregation": null,
+    "dataUsageLimit": null,
+    "organizationId": 3,
+    "taxable": false,
+    "taxId": null,
+    "amountExemptFromTaxation": null,
+    "setupFee": null,
+    "earlyTerminationFee": null,
+    "minimumContractLengthMonths": null,
+    "periods": [
+      {
+        "id": 429,
+        "price": 1400.0,
+        "period": 1,
+        "enabled": true
+      },
+      {
+        "id": 430,
+        "price": null,
+        "period": 2,
+        "enabled": false
+      },
+      {
+        "id": 431,
+        "price": null,
+        "period": 3,
+        "enabled": false
+      },
+      {
+        "id": 432,
+        "price": null,
+        "period": 6,
+        "enabled": false
+      },
+      {
+        "id": 433,
+        "price": null,
+        "period": 12,
+        "enabled": false
+      },
+      {
+        "id": 434,
+        "price": null,
+        "period": 24,
+        "enabled": false
+      }
+    ],
+    "public": false,
+    "prepaid": false,
+    "prepaidConfiguration": {
+      "pricePerDay": null
+    },
+    "servicePlanGroups": [],
+    "defaultServicePlanGroupId": null,
+    "uploadSpeedLimited": null,
+    "downloadSpeedLimited": null,
+    "archived": false
+  },
+  {
+    "id": 75,
+    "servicePlanType": "Internet",
+    "name": "DIAMOND UNLIMITED 1600",
+    "invoiceLabel": null,
+    "downloadBurst": null,
+    "uploadBurst": null,
+    "downloadSpeed": 300.0,
+    "uploadSpeed": 300.0,
+    "aggregation": null,
+    "dataUsageLimit": null,
+    "organizationId": 3,
+    "taxable": false,
+    "taxId": null,
+    "amountExemptFromTaxation": null,
+    "setupFee": null,
+    "earlyTerminationFee": null,
+    "minimumContractLengthMonths": null,
+    "periods": [
+      {
+        "id": 435,
+        "price": 1600.0,
+        "period": 1,
+        "enabled": true
+      },
+      {
+        "id": 436,
+        "price": null,
+        "period": 2,
+        "enabled": false
+      },
+      {
+        "id": 437,
+        "price": null,
+        "period": 3,
+        "enabled": false
+      },
+      {
+        "id": 438,
+        "price": null,
+        "period": 6,
+        "enabled": false
+      },
+      {
+        "id": 439,
+        "price": null,
+        "period": 12,
+        "enabled": false
+      },
+      {
+        "id": 440,
+        "price": null,
+        "period": 24,
+        "enabled": false
+      }
+    ],
+    "public": false,
+    "prepaid": false,
+    "prepaidConfiguration": {
+      "pricePerDay": null
+    },
+    "servicePlanGroups": [],
+    "defaultServicePlanGroupId": null,
+    "uploadSpeedLimited": null,
+    "downloadSpeedLimited": null,
+    "archived": false
+  },
+  {
+    "id": 76,
+    "servicePlanType": "Internet",
+    "name": "RUBY UNLIMITED 2000",
+    "invoiceLabel": null,
+    "downloadBurst": null,
+    "uploadBurst": null,
+    "downloadSpeed": 500.0,
+    "uploadSpeed": 500.0,
+    "aggregation": null,
+    "dataUsageLimit": null,
+    "organizationId": 3,
+    "taxable": false,
+    "taxId": null,
+    "amountExemptFromTaxation": null,
+    "setupFee": null,
+    "earlyTerminationFee": null,
+    "minimumContractLengthMonths": null,
+    "periods": [
+      {
+        "id": 441,
+        "price": 2000.0,
+        "period": 1,
+        "enabled": true
+      },
+      {
+        "id": 442,
+        "price": null,
+        "period": 2,
+        "enabled": false
+      },
+      {
+        "id": 443,
+        "price": null,
+        "period": 3,
+        "enabled": false
+      },
+      {
+        "id": 444,
+        "price": null,
+        "period": 6,
+        "enabled": false
+      },
+      {
+        "id": 445,
+        "price": null,
+        "period": 12,
+        "enabled": false
+      },
+      {
+        "id": 446,
+        "price": null,
+        "period": 24,
+        "enabled": false
+      }
+    ],
+    "public": false,
+    "prepaid": false,
+    "prepaidConfiguration": {
+      "pricePerDay": null
+    },
+    "servicePlanGroups": [],
+    "defaultServicePlanGroupId": null,
+    "uploadSpeedLimited": null,
+    "downloadSpeedLimited": null,
+    "archived": false
+  },
+  {
+    "id": 77,
+    "servicePlanType": "Internet",
+    "name": "SME PLAN 2999",
+    "invoiceLabel": null,
+    "downloadBurst": null,
+    "uploadBurst": null,
+    "downloadSpeed": 300.0,
+    "uploadSpeed": 300.0,
+    "aggregation": null,
+    "dataUsageLimit": null,
+    "organizationId": 3,
+    "taxable": false,
+    "taxId": null,
+    "amountExemptFromTaxation": null,
+    "setupFee": null,
+    "earlyTerminationFee": null,
+    "minimumContractLengthMonths": null,
+    "periods": [
+      {
+        "id": 447,
+        "price": 2999.0,
+        "period": 1,
+        "enabled": true
+      },
+      {
+        "id": 448,
+        "price": null,
+        "period": 2,
+        "enabled": false
+      },
+      {
+        "id": 449,
+        "price": null,
+        "period": 3,
+        "enabled": false
+      },
+      {
+        "id": 450,
+        "price": null,
+        "period": 6,
+        "enabled": false
+      },
+      {
+        "id": 451,
+        "price": null,
+        "period": 12,
+        "enabled": false
+      },
+      {
+        "id": 452,
+        "price": null,
+        "period": 24,
+        "enabled": false
+      }
+    ],
+    "public": false,
+    "prepaid": false,
+    "prepaidConfiguration": {
+      "pricePerDay": null
+    },
+    "servicePlanGroups": [],
+    "defaultServicePlanGroupId": null,
+    "uploadSpeedLimited": null,
+    "downloadSpeedLimited": null,
+    "archived": false
+  },
+  {
+    "id": 78,
+    "servicePlanType": "Internet",
+    "name": "SME PLAN 3999",
+    "invoiceLabel": null,
+    "downloadBurst": null,
+    "uploadBurst": null,
+    "downloadSpeed": 500.0,
+    "uploadSpeed": 500.0,
+    "aggregation": null,
+    "dataUsageLimit": null,
+    "organizationId": 3,
+    "taxable": false,
+    "taxId": null,
+    "amountExemptFromTaxation": null,
+    "setupFee": null,
+    "earlyTerminationFee": null,
+    "minimumContractLengthMonths": null,
+    "periods": [
+      {
+        "id": 453,
+        "price": 3999.0,
+        "period": 1,
+        "enabled": true
+      },
+      {
+        "id": 454,
+        "price": null,
+        "period": 2,
+        "enabled": false
+      },
+      {
+        "id": 455,
+        "price": null,
+        "period": 3,
+        "enabled": false
+      },
+      {
+        "id": 456,
+        "price": null,
+        "period": 6,
+        "enabled": false
+      },
+      {
+        "id": 457,
+        "price": null,
+        "period": 12,
+        "enabled": false
+      },
+      {
+        "id": 458,
+        "price": null,
+        "period": 24,
+        "enabled": false
+      }
+    ],
+    "public": false,
+    "prepaid": false,
+    "prepaidConfiguration": {
+      "pricePerDay": null
+    },
+    "servicePlanGroups": [],
+    "defaultServicePlanGroupId": null,
+    "uploadSpeedLimited": null,
+    "downloadSpeedLimited": null,
+    "archived": false
+  },
+  {
+    "id": 79,
+    "servicePlanType": "Internet",
+    "name": "SME PLAN 4999",
+    "invoiceLabel": null,
+    "downloadBurst": null,
+    "uploadBurst": null,
+    "downloadSpeed": 1000.0,
+    "uploadSpeed": 1000.0,
+    "aggregation": null,
+    "dataUsageLimit": null,
+    "organizationId": 3,
+    "taxable": false,
+    "taxId": null,
+    "amountExemptFromTaxation": null,
+    "setupFee": null,
+    "earlyTerminationFee": null,
+    "minimumContractLengthMonths": null,
+    "periods": [
+      {
+        "id": 459,
+        "price": 4999.0,
+        "period": 1,
+        "enabled": true
+      },
+      {
+        "id": 460,
+        "price": null,
+        "period": 2,
+        "enabled": false
+      },
+      {
+        "id": 461,
+        "price": null,
+        "period": 3,
+        "enabled": false
+      },
+      {
+        "id": 462,
+        "price": null,
+        "period": 6,
+        "enabled": false
+      },
+      {
+        "id": 463,
+        "price": null,
+        "period": 12,
+        "enabled": false
+      },
+      {
+        "id": 464,
+        "price": null,
+        "period": 24,
+        "enabled": false
+      }
+    ],
+    "public": false,
+    "prepaid": false,
+    "prepaidConfiguration": {
+      "pricePerDay": null
+    },
+    "servicePlanGroups": [],
+    "defaultServicePlanGroupId": null,
+    "uploadSpeedLimited": null,
+    "downloadSpeedLimited": null,
+    "archived": false
+  },
+  {
+    "id": 80,
+    "servicePlanType": "Internet",
+    "name": "DIA BGP VM2",
+    "invoiceLabel": null,
+    "downloadBurst": null,
+    "uploadBurst": null,
+    "downloadSpeed": null,
+    "uploadSpeed": null,
+    "aggregation": null,
+    "dataUsageLimit": null,
+    "organizationId": 1,
+    "taxable": false,
+    "taxId": null,
+    "amountExemptFromTaxation": null,
+    "setupFee": null,
+    "earlyTerminationFee": null,
+    "minimumContractLengthMonths": null,
+    "periods": [
+      {
+        "id": 465,
+        "price": 67500.0,
+        "period": 1,
+        "enabled": true
+      },
+      {
+        "id": 466,
+        "price": null,
+        "period": 2,
+        "enabled": false
+      },
+      {
+        "id": 467,
+        "price": null,
+        "period": 3,
+        "enabled": false
+      },
+      {
+        "id": 468,
+        "price": null,
+        "period": 6,
+        "enabled": false
+      },
+      {
+        "id": 469,
+        "price": null,
+        "period": 12,
+        "enabled": false
+      },
+      {
+        "id": 470,
+        "price": null,
+        "period": 24,
+        "enabled": false
+      }
+    ],
+    "public": false,
+    "prepaid": false,
+    "prepaidConfiguration": {
+      "pricePerDay": null
+    },
+    "servicePlanGroups": [],
+    "defaultServicePlanGroupId": null,
+    "uploadSpeedLimited": null,
+    "downloadSpeedLimited": null,
+    "archived": false
+  }
+]

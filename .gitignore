@@ -2,8 +2,9 @@
 scripts/config.py
 local.md
 
-# Large data exports
+# Large data exports (contain customer PII — addresses, GPS, client IDs)
 scripts/invoices_export.json
+scripts/services_export.json
 
 # Log files
 *.log
@@ -11,6 +12,8 @@ scripts/*.log
 
 # Failed import reports
 scripts/failed_clients_*.json
+scripts/failed_invoices_*.json
+scripts/failed_pppoe_*.json
 
 # Python
 __pycache__/

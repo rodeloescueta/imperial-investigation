@@ -1,7 +1,7 @@
 # Task: Import Invoices from Old UISP into New UISP via API
 
 **Date:** February 10, 2026
-**Status:** Running (started Feb 10, 19:15 PHT in tmux session `invoice-import`)
+**Status:** ✅ Completed (Feb 11, 11:45 PHT) — 63,076 invoices, 59,876 payments, 16.5 hours
 **Depends on:** `uisp-csv-client-import.md` (completed)
 **Priority:** High — Old UISP access ends February 15, 2026
 
